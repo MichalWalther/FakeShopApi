@@ -30,7 +30,7 @@
     <div>Scenarios</div>
   </div>         
   <div id="nav-date">
-    <div>2021-07-09 11:52:10 AM</div>
+    <div>2021-07-09 12:13:13 PM</div>
   </div>        
 </div>
 
@@ -83,7 +83,7 @@
               </div>
             </div>
             <div class="scenario-time passed">
-              <span>ms:</span>&nbsp;<span>499</span>
+              <span>ms:</span>&nbsp;<span>604</span>
             </div>
           </div>
           <div class="step-row">
@@ -115,7 +115,7 @@
 
   
 
-  <div class="preformatted" data-parent="1.6">11:52:08.070 karate.env system property was: null 
+  <div class="preformatted" data-parent="1.6">12:13:11.523 karate.env system property was: null 
 </div>   
 
   
@@ -135,7 +135,7 @@
         <span>*</span>&nbsp;<span>call read(&#39;userSignIn.feature&#39;)</span>
       </div>
     </div>
-    <div class="time-cell passed">267</div>
+    <div class="time-cell passed">325</div>
   </div>
 
    
@@ -154,7 +154,7 @@
         <div class="step-indent"></div>
         <div class="step-cell passed">examples.fakeShopApi.userSignIn</div>
       </div>
-      <div class="time-cell passed">255</div>
+      <div class="time-cell passed">312</div>
     </div>
     <div>
       <div><div>
@@ -198,7 +198,7 @@
         <span>*</span>&nbsp;<span>def signIn =</span>
       </div>
     </div>
-    <div class="time-cell passed">0</div>
+    <div class="time-cell passed">1</div>
   </div>
 
    
@@ -285,7 +285,7 @@
         <span>When</span>&nbsp;<span>method post</span>
       </div>
     </div>
-    <div class="time-cell passed">250</div>
+    <div class="time-cell passed">304</div>
   </div>
 
    
@@ -294,7 +294,7 @@
 
   
 
-  <div class="preformatted" data-parent="1.7.0.call.0.17">11:52:08.079 request:
+  <div class="preformatted" data-parent="1.7.0.call.0.17">12:13:11.532 request:
 1 &gt; POST http://api.fakeshop-api.com/users/signin
 1 &gt; Content-Type: application/json; charset=UTF-8
 1 &gt; Content-Length: 50
@@ -304,7 +304,7 @@
 1 &gt; Accept-Encoding: gzip,deflate
 {&quot;password&quot;:&quot;123456&quot;,&quot;email&quot;:&quot;wally777@wally.com&quot;}
 
-11:52:08.323 response time in milliseconds: 243
+12:13:11.812 response time in milliseconds: 278
 1 &lt; 201
 1 &lt; Server: Cowboy
 1 &lt; Connection: keep-alive
@@ -312,10 +312,10 @@
 1 &lt; Access-Control-Allow-Origin: *
 1 &lt; Content-Type: application/json; charset=utf-8
 1 &lt; Content-Length: 224
-1 &lt; Etag: W/&quot;e0-TzO0vxub6w6BFVp+YP/R1Rb2lW8&quot;
-1 &lt; Date: Fri, 09 Jul 2021 09:52:08 GMT
+1 &lt; Etag: W/&quot;e0-uVIfGdazVMvOFIgjK90AN/ot6yU&quot;
+1 &lt; Date: Fri, 09 Jul 2021 10:13:11 GMT
 1 &lt; Via: 1.1 vegur
-{&quot;message&quot;:&quot;User signed in successfully&quot;,&quot;token&quot;:&quot;eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyRW1haWwiOiJ3YWxseTc3N0B3YWxseS5jb20iLCJpYXQiOjE2MjU4MjQzMjgsImV4cCI6MTYyNTk5NzEyOH0.FOi5GmwDRCxSSb8xYaZIs1PEMl4pxZz-0XNoC6nXDl0&quot;}
+{&quot;message&quot;:&quot;User signed in successfully&quot;,&quot;token&quot;:&quot;eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyRW1haWwiOiJ3YWxseTc3N0B3YWxseS5jb20iLCJpYXQiOjE2MjU4MjU1OTEsImV4cCI6MTYyNTk5ODM5MX0.rz3YO7p0uWcO_iV7G2Afb1u_8V76SBzQqoxqu7EQxRQ&quot;}
 </div>   
 
   
@@ -363,7 +363,7 @@
         <span>And</span>&nbsp;<span>match response contains deep { &quot;token&quot;: &#39;#string&#39;}</span>
       </div>
     </div>
-    <div class="time-cell passed">0</div>
+    <div class="time-cell passed">1</div>
   </div>
 
    
@@ -391,7 +391,7 @@
         <span>*</span>&nbsp;<span>print response</span>
       </div>
     </div>
-    <div class="time-cell passed">3</div>
+    <div class="time-cell passed">2</div>
   </div>
 
    
@@ -400,9 +400,9 @@
 
   
 
-  <div class="preformatted" data-parent="1.7.0.call.0.20">11:52:08.331 [print] {
+  <div class="preformatted" data-parent="1.7.0.call.0.20">12:13:11.839 [print] {
   &quot;message&quot;: &quot;User signed in successfully&quot;,
-  &quot;token&quot;: &quot;eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyRW1haWwiOiJ3YWxseTc3N0B3YWxseS5jb20iLCJpYXQiOjE2MjU4MjQzMjgsImV4cCI6MTYyNTk5NzEyOH0.FOi5GmwDRCxSSb8xYaZIs1PEMl4pxZz-0XNoC6nXDl0&quot;
+  &quot;token&quot;: &quot;eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyRW1haWwiOiJ3YWxseTc3N0B3YWxseS5jb20iLCJpYXQiOjE2MjU4MjU1OTEsImV4cCI6MTYyNTk5ODM5MX0.rz3YO7p0uWcO_iV7G2Afb1u_8V76SBzQqoxqu7EQxRQ&quot;
 }
  
 </div>   
@@ -424,7 +424,7 @@
         <span>*</span>&nbsp;<span>def token = response.token</span>
       </div>
     </div>
-    <div class="time-cell passed">1</div>
+    <div class="time-cell passed">3</div>
   </div>
 
    
@@ -457,7 +457,7 @@
         <span>*</span>&nbsp;<span>def laptop = read(&#39;laptop.json&#39;)</span>
       </div>
     </div>
-    <div class="time-cell passed">4</div>
+    <div class="time-cell passed">10</div>
   </div>
 
    
@@ -496,7 +496,7 @@
 
   
 
-  <div class="preformatted" data-parent="1.10">11:52:08.352 karate.env system property was: null 
+  <div class="preformatted" data-parent="1.10">12:13:11.873 karate.env system property was: null 
 </div>   
 
   
@@ -600,7 +600,7 @@
         <span>When</span>&nbsp;<span>method post</span>
       </div>
     </div>
-    <div class="time-cell passed">226</div>
+    <div class="time-cell passed">267</div>
   </div>
 
    
@@ -693,7 +693,7 @@
 
   
 
-  <div class="preformatted" data-parent="1.22">11:52:08.581 [print] {
+  <div class="preformatted" data-parent="1.22">12:13:12.143 [print] {
   &quot;message&quot;: &quot;Product added to cart&quot;
 }
  
@@ -717,7 +717,7 @@
               </div>
             </div>
             <div class="scenario-time passed">
-              <span>ms:</span>&nbsp;<span>526</span>
+              <span>ms:</span>&nbsp;<span>559</span>
             </div>
           </div>
           <div class="step-row">
@@ -749,7 +749,7 @@
 
   
 
-  <div class="preformatted" data-parent="2.6">11:52:08.070 karate.env system property was: null 
+  <div class="preformatted" data-parent="2.6">12:13:11.523 karate.env system property was: null 
 </div>   
 
   
@@ -769,7 +769,7 @@
         <span>*</span>&nbsp;<span>call read(&#39;userSignIn.feature&#39;)</span>
       </div>
     </div>
-    <div class="time-cell passed">267</div>
+    <div class="time-cell passed">325</div>
   </div>
 
    
@@ -788,7 +788,7 @@
         <div class="step-indent"></div>
         <div class="step-cell passed">examples.fakeShopApi.userSignIn</div>
       </div>
-      <div class="time-cell passed">255</div>
+      <div class="time-cell passed">312</div>
     </div>
     <div>
       <div><div>
@@ -832,7 +832,7 @@
         <span>*</span>&nbsp;<span>def signIn =</span>
       </div>
     </div>
-    <div class="time-cell passed">0</div>
+    <div class="time-cell passed">1</div>
   </div>
 
    
@@ -919,7 +919,7 @@
         <span>When</span>&nbsp;<span>method post</span>
       </div>
     </div>
-    <div class="time-cell passed">250</div>
+    <div class="time-cell passed">304</div>
   </div>
 
    
@@ -928,7 +928,7 @@
 
   
 
-  <div class="preformatted" data-parent="2.7.0.call.0.17">11:52:08.079 request:
+  <div class="preformatted" data-parent="2.7.0.call.0.17">12:13:11.532 request:
 1 &gt; POST http://api.fakeshop-api.com/users/signin
 1 &gt; Content-Type: application/json; charset=UTF-8
 1 &gt; Content-Length: 50
@@ -938,7 +938,7 @@
 1 &gt; Accept-Encoding: gzip,deflate
 {&quot;password&quot;:&quot;123456&quot;,&quot;email&quot;:&quot;wally777@wally.com&quot;}
 
-11:52:08.323 response time in milliseconds: 243
+12:13:11.812 response time in milliseconds: 278
 1 &lt; 201
 1 &lt; Server: Cowboy
 1 &lt; Connection: keep-alive
@@ -946,10 +946,10 @@
 1 &lt; Access-Control-Allow-Origin: *
 1 &lt; Content-Type: application/json; charset=utf-8
 1 &lt; Content-Length: 224
-1 &lt; Etag: W/&quot;e0-TzO0vxub6w6BFVp+YP/R1Rb2lW8&quot;
-1 &lt; Date: Fri, 09 Jul 2021 09:52:08 GMT
+1 &lt; Etag: W/&quot;e0-uVIfGdazVMvOFIgjK90AN/ot6yU&quot;
+1 &lt; Date: Fri, 09 Jul 2021 10:13:11 GMT
 1 &lt; Via: 1.1 vegur
-{&quot;message&quot;:&quot;User signed in successfully&quot;,&quot;token&quot;:&quot;eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyRW1haWwiOiJ3YWxseTc3N0B3YWxseS5jb20iLCJpYXQiOjE2MjU4MjQzMjgsImV4cCI6MTYyNTk5NzEyOH0.FOi5GmwDRCxSSb8xYaZIs1PEMl4pxZz-0XNoC6nXDl0&quot;}
+{&quot;message&quot;:&quot;User signed in successfully&quot;,&quot;token&quot;:&quot;eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyRW1haWwiOiJ3YWxseTc3N0B3YWxseS5jb20iLCJpYXQiOjE2MjU4MjU1OTEsImV4cCI6MTYyNTk5ODM5MX0.rz3YO7p0uWcO_iV7G2Afb1u_8V76SBzQqoxqu7EQxRQ&quot;}
 </div>   
 
   
@@ -997,7 +997,7 @@
         <span>And</span>&nbsp;<span>match response contains deep { &quot;token&quot;: &#39;#string&#39;}</span>
       </div>
     </div>
-    <div class="time-cell passed">0</div>
+    <div class="time-cell passed">1</div>
   </div>
 
    
@@ -1025,7 +1025,7 @@
         <span>*</span>&nbsp;<span>print response</span>
       </div>
     </div>
-    <div class="time-cell passed">3</div>
+    <div class="time-cell passed">2</div>
   </div>
 
    
@@ -1034,9 +1034,9 @@
 
   
 
-  <div class="preformatted" data-parent="2.7.0.call.0.20">11:52:08.331 [print] {
+  <div class="preformatted" data-parent="2.7.0.call.0.20">12:13:11.839 [print] {
   &quot;message&quot;: &quot;User signed in successfully&quot;,
-  &quot;token&quot;: &quot;eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyRW1haWwiOiJ3YWxseTc3N0B3YWxseS5jb20iLCJpYXQiOjE2MjU4MjQzMjgsImV4cCI6MTYyNTk5NzEyOH0.FOi5GmwDRCxSSb8xYaZIs1PEMl4pxZz-0XNoC6nXDl0&quot;
+  &quot;token&quot;: &quot;eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyRW1haWwiOiJ3YWxseTc3N0B3YWxseS5jb20iLCJpYXQiOjE2MjU4MjU1OTEsImV4cCI6MTYyNTk5ODM5MX0.rz3YO7p0uWcO_iV7G2Afb1u_8V76SBzQqoxqu7EQxRQ&quot;
 }
  
 </div>   
@@ -1058,7 +1058,7 @@
         <span>*</span>&nbsp;<span>def token = response.token</span>
       </div>
     </div>
-    <div class="time-cell passed">1</div>
+    <div class="time-cell passed">3</div>
   </div>
 
    
@@ -1091,7 +1091,7 @@
         <span>*</span>&nbsp;<span>def laptop = read(&#39;laptop.json&#39;)</span>
       </div>
     </div>
-    <div class="time-cell passed">4</div>
+    <div class="time-cell passed">10</div>
   </div>
 
    
@@ -1130,7 +1130,7 @@
 
   
 
-  <div class="preformatted" data-parent="2.10">11:52:08.588 karate.env system property was: null 
+  <div class="preformatted" data-parent="2.10">12:13:12.149 karate.env system property was: null 
 </div>   
 
   
@@ -1234,7 +1234,7 @@
         <span>When</span>&nbsp;<span>method post</span>
       </div>
     </div>
-    <div class="time-cell passed">250</div>
+    <div class="time-cell passed">223</div>
   </div>
 
    
@@ -1318,7 +1318,7 @@
         <span>*</span>&nbsp;<span>print response</span>
       </div>
     </div>
-    <div class="time-cell passed">4</div>
+    <div class="time-cell passed">1</div>
   </div>
 
    
@@ -1327,7 +1327,7 @@
 
   
 
-  <div class="preformatted" data-parent="2.22">11:52:08.854 [print] {
+  <div class="preformatted" data-parent="2.22">12:13:12.374 [print] {
   &quot;message&quot;: &quot;Product added to cart&quot;
 }
  
@@ -1351,7 +1351,7 @@
               </div>
             </div>
             <div class="scenario-time passed">
-              <span>ms:</span>&nbsp;<span>503</span>
+              <span>ms:</span>&nbsp;<span>577</span>
             </div>
           </div>
           <div class="step-row">
@@ -1383,7 +1383,7 @@
 
   
 
-  <div class="preformatted" data-parent="3.6">11:52:08.070 karate.env system property was: null 
+  <div class="preformatted" data-parent="3.6">12:13:11.523 karate.env system property was: null 
 </div>   
 
   
@@ -1403,7 +1403,7 @@
         <span>*</span>&nbsp;<span>call read(&#39;userSignIn.feature&#39;)</span>
       </div>
     </div>
-    <div class="time-cell passed">267</div>
+    <div class="time-cell passed">325</div>
   </div>
 
    
@@ -1422,7 +1422,7 @@
         <div class="step-indent"></div>
         <div class="step-cell passed">examples.fakeShopApi.userSignIn</div>
       </div>
-      <div class="time-cell passed">255</div>
+      <div class="time-cell passed">312</div>
     </div>
     <div>
       <div><div>
@@ -1466,7 +1466,7 @@
         <span>*</span>&nbsp;<span>def signIn =</span>
       </div>
     </div>
-    <div class="time-cell passed">0</div>
+    <div class="time-cell passed">1</div>
   </div>
 
    
@@ -1553,7 +1553,7 @@
         <span>When</span>&nbsp;<span>method post</span>
       </div>
     </div>
-    <div class="time-cell passed">250</div>
+    <div class="time-cell passed">304</div>
   </div>
 
    
@@ -1562,7 +1562,7 @@
 
   
 
-  <div class="preformatted" data-parent="3.7.0.call.0.17">11:52:08.079 request:
+  <div class="preformatted" data-parent="3.7.0.call.0.17">12:13:11.532 request:
 1 &gt; POST http://api.fakeshop-api.com/users/signin
 1 &gt; Content-Type: application/json; charset=UTF-8
 1 &gt; Content-Length: 50
@@ -1572,7 +1572,7 @@
 1 &gt; Accept-Encoding: gzip,deflate
 {&quot;password&quot;:&quot;123456&quot;,&quot;email&quot;:&quot;wally777@wally.com&quot;}
 
-11:52:08.323 response time in milliseconds: 243
+12:13:11.812 response time in milliseconds: 278
 1 &lt; 201
 1 &lt; Server: Cowboy
 1 &lt; Connection: keep-alive
@@ -1580,10 +1580,10 @@
 1 &lt; Access-Control-Allow-Origin: *
 1 &lt; Content-Type: application/json; charset=utf-8
 1 &lt; Content-Length: 224
-1 &lt; Etag: W/&quot;e0-TzO0vxub6w6BFVp+YP/R1Rb2lW8&quot;
-1 &lt; Date: Fri, 09 Jul 2021 09:52:08 GMT
+1 &lt; Etag: W/&quot;e0-uVIfGdazVMvOFIgjK90AN/ot6yU&quot;
+1 &lt; Date: Fri, 09 Jul 2021 10:13:11 GMT
 1 &lt; Via: 1.1 vegur
-{&quot;message&quot;:&quot;User signed in successfully&quot;,&quot;token&quot;:&quot;eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyRW1haWwiOiJ3YWxseTc3N0B3YWxseS5jb20iLCJpYXQiOjE2MjU4MjQzMjgsImV4cCI6MTYyNTk5NzEyOH0.FOi5GmwDRCxSSb8xYaZIs1PEMl4pxZz-0XNoC6nXDl0&quot;}
+{&quot;message&quot;:&quot;User signed in successfully&quot;,&quot;token&quot;:&quot;eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyRW1haWwiOiJ3YWxseTc3N0B3YWxseS5jb20iLCJpYXQiOjE2MjU4MjU1OTEsImV4cCI6MTYyNTk5ODM5MX0.rz3YO7p0uWcO_iV7G2Afb1u_8V76SBzQqoxqu7EQxRQ&quot;}
 </div>   
 
   
@@ -1631,7 +1631,7 @@
         <span>And</span>&nbsp;<span>match response contains deep { &quot;token&quot;: &#39;#string&#39;}</span>
       </div>
     </div>
-    <div class="time-cell passed">0</div>
+    <div class="time-cell passed">1</div>
   </div>
 
    
@@ -1659,7 +1659,7 @@
         <span>*</span>&nbsp;<span>print response</span>
       </div>
     </div>
-    <div class="time-cell passed">3</div>
+    <div class="time-cell passed">2</div>
   </div>
 
    
@@ -1668,9 +1668,9 @@
 
   
 
-  <div class="preformatted" data-parent="3.7.0.call.0.20">11:52:08.331 [print] {
+  <div class="preformatted" data-parent="3.7.0.call.0.20">12:13:11.839 [print] {
   &quot;message&quot;: &quot;User signed in successfully&quot;,
-  &quot;token&quot;: &quot;eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyRW1haWwiOiJ3YWxseTc3N0B3YWxseS5jb20iLCJpYXQiOjE2MjU4MjQzMjgsImV4cCI6MTYyNTk5NzEyOH0.FOi5GmwDRCxSSb8xYaZIs1PEMl4pxZz-0XNoC6nXDl0&quot;
+  &quot;token&quot;: &quot;eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyRW1haWwiOiJ3YWxseTc3N0B3YWxseS5jb20iLCJpYXQiOjE2MjU4MjU1OTEsImV4cCI6MTYyNTk5ODM5MX0.rz3YO7p0uWcO_iV7G2Afb1u_8V76SBzQqoxqu7EQxRQ&quot;
 }
  
 </div>   
@@ -1692,7 +1692,7 @@
         <span>*</span>&nbsp;<span>def token = response.token</span>
       </div>
     </div>
-    <div class="time-cell passed">1</div>
+    <div class="time-cell passed">3</div>
   </div>
 
    
@@ -1725,7 +1725,7 @@
         <span>*</span>&nbsp;<span>def laptop = read(&#39;laptop.json&#39;)</span>
       </div>
     </div>
-    <div class="time-cell passed">4</div>
+    <div class="time-cell passed">10</div>
   </div>
 
    
@@ -1764,7 +1764,7 @@
 
   
 
-  <div class="preformatted" data-parent="3.10">11:52:08.862 karate.env system property was: null 
+  <div class="preformatted" data-parent="3.10">12:13:12.379 karate.env system property was: null 
 </div>   
 
   
@@ -1868,7 +1868,7 @@
         <span>When</span>&nbsp;<span>method post</span>
       </div>
     </div>
-    <div class="time-cell passed">231</div>
+    <div class="time-cell passed">239</div>
   </div>
 
    
@@ -1952,7 +1952,7 @@
         <span>*</span>&nbsp;<span>print response</span>
       </div>
     </div>
-    <div class="time-cell passed">1</div>
+    <div class="time-cell passed">2</div>
   </div>
 
    
@@ -1961,7 +1961,7 @@
 
   
 
-  <div class="preformatted" data-parent="3.22">11:52:09.095 [print] {
+  <div class="preformatted" data-parent="3.22">12:13:12.622 [print] {
   &quot;message&quot;: &quot;Product added to cart&quot;
 }
  
@@ -1985,7 +1985,7 @@
               </div>
             </div>
             <div class="scenario-time passed">
-              <span>ms:</span>&nbsp;<span>531</span>
+              <span>ms:</span>&nbsp;<span>575</span>
             </div>
           </div>
           <div class="step-row">
@@ -2017,7 +2017,7 @@
 
   
 
-  <div class="preformatted" data-parent="4.6">11:52:08.070 karate.env system property was: null 
+  <div class="preformatted" data-parent="4.6">12:13:11.523 karate.env system property was: null 
 </div>   
 
   
@@ -2037,7 +2037,7 @@
         <span>*</span>&nbsp;<span>call read(&#39;userSignIn.feature&#39;)</span>
       </div>
     </div>
-    <div class="time-cell passed">267</div>
+    <div class="time-cell passed">325</div>
   </div>
 
    
@@ -2056,7 +2056,7 @@
         <div class="step-indent"></div>
         <div class="step-cell passed">examples.fakeShopApi.userSignIn</div>
       </div>
-      <div class="time-cell passed">255</div>
+      <div class="time-cell passed">312</div>
     </div>
     <div>
       <div><div>
@@ -2100,7 +2100,7 @@
         <span>*</span>&nbsp;<span>def signIn =</span>
       </div>
     </div>
-    <div class="time-cell passed">0</div>
+    <div class="time-cell passed">1</div>
   </div>
 
    
@@ -2187,7 +2187,7 @@
         <span>When</span>&nbsp;<span>method post</span>
       </div>
     </div>
-    <div class="time-cell passed">250</div>
+    <div class="time-cell passed">304</div>
   </div>
 
    
@@ -2196,7 +2196,7 @@
 
   
 
-  <div class="preformatted" data-parent="4.7.0.call.0.17">11:52:08.079 request:
+  <div class="preformatted" data-parent="4.7.0.call.0.17">12:13:11.532 request:
 1 &gt; POST http://api.fakeshop-api.com/users/signin
 1 &gt; Content-Type: application/json; charset=UTF-8
 1 &gt; Content-Length: 50
@@ -2206,7 +2206,7 @@
 1 &gt; Accept-Encoding: gzip,deflate
 {&quot;password&quot;:&quot;123456&quot;,&quot;email&quot;:&quot;wally777@wally.com&quot;}
 
-11:52:08.323 response time in milliseconds: 243
+12:13:11.812 response time in milliseconds: 278
 1 &lt; 201
 1 &lt; Server: Cowboy
 1 &lt; Connection: keep-alive
@@ -2214,10 +2214,10 @@
 1 &lt; Access-Control-Allow-Origin: *
 1 &lt; Content-Type: application/json; charset=utf-8
 1 &lt; Content-Length: 224
-1 &lt; Etag: W/&quot;e0-TzO0vxub6w6BFVp+YP/R1Rb2lW8&quot;
-1 &lt; Date: Fri, 09 Jul 2021 09:52:08 GMT
+1 &lt; Etag: W/&quot;e0-uVIfGdazVMvOFIgjK90AN/ot6yU&quot;
+1 &lt; Date: Fri, 09 Jul 2021 10:13:11 GMT
 1 &lt; Via: 1.1 vegur
-{&quot;message&quot;:&quot;User signed in successfully&quot;,&quot;token&quot;:&quot;eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyRW1haWwiOiJ3YWxseTc3N0B3YWxseS5jb20iLCJpYXQiOjE2MjU4MjQzMjgsImV4cCI6MTYyNTk5NzEyOH0.FOi5GmwDRCxSSb8xYaZIs1PEMl4pxZz-0XNoC6nXDl0&quot;}
+{&quot;message&quot;:&quot;User signed in successfully&quot;,&quot;token&quot;:&quot;eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyRW1haWwiOiJ3YWxseTc3N0B3YWxseS5jb20iLCJpYXQiOjE2MjU4MjU1OTEsImV4cCI6MTYyNTk5ODM5MX0.rz3YO7p0uWcO_iV7G2Afb1u_8V76SBzQqoxqu7EQxRQ&quot;}
 </div>   
 
   
@@ -2265,7 +2265,7 @@
         <span>And</span>&nbsp;<span>match response contains deep { &quot;token&quot;: &#39;#string&#39;}</span>
       </div>
     </div>
-    <div class="time-cell passed">0</div>
+    <div class="time-cell passed">1</div>
   </div>
 
    
@@ -2293,7 +2293,7 @@
         <span>*</span>&nbsp;<span>print response</span>
       </div>
     </div>
-    <div class="time-cell passed">3</div>
+    <div class="time-cell passed">2</div>
   </div>
 
    
@@ -2302,9 +2302,9 @@
 
   
 
-  <div class="preformatted" data-parent="4.7.0.call.0.20">11:52:08.331 [print] {
+  <div class="preformatted" data-parent="4.7.0.call.0.20">12:13:11.839 [print] {
   &quot;message&quot;: &quot;User signed in successfully&quot;,
-  &quot;token&quot;: &quot;eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyRW1haWwiOiJ3YWxseTc3N0B3YWxseS5jb20iLCJpYXQiOjE2MjU4MjQzMjgsImV4cCI6MTYyNTk5NzEyOH0.FOi5GmwDRCxSSb8xYaZIs1PEMl4pxZz-0XNoC6nXDl0&quot;
+  &quot;token&quot;: &quot;eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyRW1haWwiOiJ3YWxseTc3N0B3YWxseS5jb20iLCJpYXQiOjE2MjU4MjU1OTEsImV4cCI6MTYyNTk5ODM5MX0.rz3YO7p0uWcO_iV7G2Afb1u_8V76SBzQqoxqu7EQxRQ&quot;
 }
  
 </div>   
@@ -2326,7 +2326,7 @@
         <span>*</span>&nbsp;<span>def token = response.token</span>
       </div>
     </div>
-    <div class="time-cell passed">1</div>
+    <div class="time-cell passed">3</div>
   </div>
 
    
@@ -2359,7 +2359,7 @@
         <span>*</span>&nbsp;<span>def laptop = read(&#39;laptop.json&#39;)</span>
       </div>
     </div>
-    <div class="time-cell passed">4</div>
+    <div class="time-cell passed">10</div>
   </div>
 
    
@@ -2387,7 +2387,7 @@
         <span>*</span>&nbsp;<span>def addToBasket =</span>
       </div>
     </div>
-    <div class="time-cell passed">0</div>
+    <div class="time-cell passed">1</div>
   </div>
 
    
@@ -2398,7 +2398,7 @@
 
   
 
-  <div class="preformatted" data-parent="4.10">11:52:09.105 karate.env system property was: null 
+  <div class="preformatted" data-parent="4.10">12:13:12.643 karate.env system property was: null 
 </div>   
 
   
@@ -2418,7 +2418,7 @@
         <span>Given</span>&nbsp;<span>path &#39;carts&#39;, &#39;addToCart&#39;</span>
       </div>
     </div>
-    <div class="time-cell passed">6</div>
+    <div class="time-cell passed">0</div>
   </div>
 
    
@@ -2502,7 +2502,7 @@
         <span>When</span>&nbsp;<span>method post</span>
       </div>
     </div>
-    <div class="time-cell passed">253</div>
+    <div class="time-cell passed">237</div>
   </div>
 
    
@@ -2595,7 +2595,7 @@
 
   
 
-  <div class="preformatted" data-parent="4.22">11:52:09.367 [print] {
+  <div class="preformatted" data-parent="4.22">12:13:12.885 [print] {
   &quot;message&quot;: &quot;Product added to cart&quot;
 }
  
@@ -2619,7 +2619,7 @@
               </div>
             </div>
             <div class="scenario-time passed">
-              <span>ms:</span>&nbsp;<span>511</span>
+              <span>ms:</span>&nbsp;<span>587</span>
             </div>
           </div>
           <div class="step-row">
@@ -2651,7 +2651,7 @@
 
   
 
-  <div class="preformatted" data-parent="5.6">11:52:08.070 karate.env system property was: null 
+  <div class="preformatted" data-parent="5.6">12:13:11.523 karate.env system property was: null 
 </div>   
 
   
@@ -2671,7 +2671,7 @@
         <span>*</span>&nbsp;<span>call read(&#39;userSignIn.feature&#39;)</span>
       </div>
     </div>
-    <div class="time-cell passed">267</div>
+    <div class="time-cell passed">325</div>
   </div>
 
    
@@ -2690,7 +2690,7 @@
         <div class="step-indent"></div>
         <div class="step-cell passed">examples.fakeShopApi.userSignIn</div>
       </div>
-      <div class="time-cell passed">255</div>
+      <div class="time-cell passed">312</div>
     </div>
     <div>
       <div><div>
@@ -2734,7 +2734,7 @@
         <span>*</span>&nbsp;<span>def signIn =</span>
       </div>
     </div>
-    <div class="time-cell passed">0</div>
+    <div class="time-cell passed">1</div>
   </div>
 
    
@@ -2821,7 +2821,7 @@
         <span>When</span>&nbsp;<span>method post</span>
       </div>
     </div>
-    <div class="time-cell passed">250</div>
+    <div class="time-cell passed">304</div>
   </div>
 
    
@@ -2830,7 +2830,7 @@
 
   
 
-  <div class="preformatted" data-parent="5.7.0.call.0.17">11:52:08.079 request:
+  <div class="preformatted" data-parent="5.7.0.call.0.17">12:13:11.532 request:
 1 &gt; POST http://api.fakeshop-api.com/users/signin
 1 &gt; Content-Type: application/json; charset=UTF-8
 1 &gt; Content-Length: 50
@@ -2840,7 +2840,7 @@
 1 &gt; Accept-Encoding: gzip,deflate
 {&quot;password&quot;:&quot;123456&quot;,&quot;email&quot;:&quot;wally777@wally.com&quot;}
 
-11:52:08.323 response time in milliseconds: 243
+12:13:11.812 response time in milliseconds: 278
 1 &lt; 201
 1 &lt; Server: Cowboy
 1 &lt; Connection: keep-alive
@@ -2848,10 +2848,10 @@
 1 &lt; Access-Control-Allow-Origin: *
 1 &lt; Content-Type: application/json; charset=utf-8
 1 &lt; Content-Length: 224
-1 &lt; Etag: W/&quot;e0-TzO0vxub6w6BFVp+YP/R1Rb2lW8&quot;
-1 &lt; Date: Fri, 09 Jul 2021 09:52:08 GMT
+1 &lt; Etag: W/&quot;e0-uVIfGdazVMvOFIgjK90AN/ot6yU&quot;
+1 &lt; Date: Fri, 09 Jul 2021 10:13:11 GMT
 1 &lt; Via: 1.1 vegur
-{&quot;message&quot;:&quot;User signed in successfully&quot;,&quot;token&quot;:&quot;eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyRW1haWwiOiJ3YWxseTc3N0B3YWxseS5jb20iLCJpYXQiOjE2MjU4MjQzMjgsImV4cCI6MTYyNTk5NzEyOH0.FOi5GmwDRCxSSb8xYaZIs1PEMl4pxZz-0XNoC6nXDl0&quot;}
+{&quot;message&quot;:&quot;User signed in successfully&quot;,&quot;token&quot;:&quot;eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyRW1haWwiOiJ3YWxseTc3N0B3YWxseS5jb20iLCJpYXQiOjE2MjU4MjU1OTEsImV4cCI6MTYyNTk5ODM5MX0.rz3YO7p0uWcO_iV7G2Afb1u_8V76SBzQqoxqu7EQxRQ&quot;}
 </div>   
 
   
@@ -2899,7 +2899,7 @@
         <span>And</span>&nbsp;<span>match response contains deep { &quot;token&quot;: &#39;#string&#39;}</span>
       </div>
     </div>
-    <div class="time-cell passed">0</div>
+    <div class="time-cell passed">1</div>
   </div>
 
    
@@ -2927,7 +2927,7 @@
         <span>*</span>&nbsp;<span>print response</span>
       </div>
     </div>
-    <div class="time-cell passed">3</div>
+    <div class="time-cell passed">2</div>
   </div>
 
    
@@ -2936,9 +2936,9 @@
 
   
 
-  <div class="preformatted" data-parent="5.7.0.call.0.20">11:52:08.331 [print] {
+  <div class="preformatted" data-parent="5.7.0.call.0.20">12:13:11.839 [print] {
   &quot;message&quot;: &quot;User signed in successfully&quot;,
-  &quot;token&quot;: &quot;eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyRW1haWwiOiJ3YWxseTc3N0B3YWxseS5jb20iLCJpYXQiOjE2MjU4MjQzMjgsImV4cCI6MTYyNTk5NzEyOH0.FOi5GmwDRCxSSb8xYaZIs1PEMl4pxZz-0XNoC6nXDl0&quot;
+  &quot;token&quot;: &quot;eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyRW1haWwiOiJ3YWxseTc3N0B3YWxseS5jb20iLCJpYXQiOjE2MjU4MjU1OTEsImV4cCI6MTYyNTk5ODM5MX0.rz3YO7p0uWcO_iV7G2Afb1u_8V76SBzQqoxqu7EQxRQ&quot;
 }
  
 </div>   
@@ -2960,7 +2960,7 @@
         <span>*</span>&nbsp;<span>def token = response.token</span>
       </div>
     </div>
-    <div class="time-cell passed">1</div>
+    <div class="time-cell passed">3</div>
   </div>
 
    
@@ -2993,7 +2993,7 @@
         <span>*</span>&nbsp;<span>def laptop = read(&#39;laptop.json&#39;)</span>
       </div>
     </div>
-    <div class="time-cell passed">4</div>
+    <div class="time-cell passed">10</div>
   </div>
 
    
@@ -3032,7 +3032,7 @@
 
   
 
-  <div class="preformatted" data-parent="5.10">11:52:09.382 karate.env system property was: null 
+  <div class="preformatted" data-parent="5.10">12:13:12.900 karate.env system property was: null 
 </div>   
 
   
@@ -3080,7 +3080,7 @@
         <span>And</span>&nbsp;<span>header Authorization = &#39;Bearer &#39; + token</span>
       </div>
     </div>
-    <div class="time-cell passed">0</div>
+    <div class="time-cell passed">1</div>
   </div>
 
    
@@ -3136,7 +3136,7 @@
         <span>When</span>&nbsp;<span>method post</span>
       </div>
     </div>
-    <div class="time-cell passed">237</div>
+    <div class="time-cell passed">246</div>
   </div>
 
    
@@ -3220,7 +3220,7 @@
         <span>*</span>&nbsp;<span>print response</span>
       </div>
     </div>
-    <div class="time-cell passed">2</div>
+    <div class="time-cell passed">3</div>
   </div>
 
    
@@ -3229,7 +3229,7 @@
 
   
 
-  <div class="preformatted" data-parent="5.22">11:52:09.624 [print] {
+  <div class="preformatted" data-parent="5.22">12:13:13.153 [print] {
   &quot;message&quot;: &quot;Product added to cart&quot;
 }
  
@@ -3253,7 +3253,7 @@
               </div>
             </div>
             <div class="scenario-time passed">
-              <span>ms:</span>&nbsp;<span>518</span>
+              <span>ms:</span>&nbsp;<span>577</span>
             </div>
           </div>
           <div class="step-row">
@@ -3285,7 +3285,7 @@
 
   
 
-  <div class="preformatted" data-parent="6.6">11:52:08.070 karate.env system property was: null 
+  <div class="preformatted" data-parent="6.6">12:13:11.523 karate.env system property was: null 
 </div>   
 
   
@@ -3305,7 +3305,7 @@
         <span>*</span>&nbsp;<span>call read(&#39;userSignIn.feature&#39;)</span>
       </div>
     </div>
-    <div class="time-cell passed">267</div>
+    <div class="time-cell passed">325</div>
   </div>
 
    
@@ -3324,7 +3324,7 @@
         <div class="step-indent"></div>
         <div class="step-cell passed">examples.fakeShopApi.userSignIn</div>
       </div>
-      <div class="time-cell passed">255</div>
+      <div class="time-cell passed">312</div>
     </div>
     <div>
       <div><div>
@@ -3368,7 +3368,7 @@
         <span>*</span>&nbsp;<span>def signIn =</span>
       </div>
     </div>
-    <div class="time-cell passed">0</div>
+    <div class="time-cell passed">1</div>
   </div>
 
    
@@ -3455,7 +3455,7 @@
         <span>When</span>&nbsp;<span>method post</span>
       </div>
     </div>
-    <div class="time-cell passed">250</div>
+    <div class="time-cell passed">304</div>
   </div>
 
    
@@ -3464,7 +3464,7 @@
 
   
 
-  <div class="preformatted" data-parent="6.7.0.call.0.17">11:52:08.079 request:
+  <div class="preformatted" data-parent="6.7.0.call.0.17">12:13:11.532 request:
 1 &gt; POST http://api.fakeshop-api.com/users/signin
 1 &gt; Content-Type: application/json; charset=UTF-8
 1 &gt; Content-Length: 50
@@ -3474,7 +3474,7 @@
 1 &gt; Accept-Encoding: gzip,deflate
 {&quot;password&quot;:&quot;123456&quot;,&quot;email&quot;:&quot;wally777@wally.com&quot;}
 
-11:52:08.323 response time in milliseconds: 243
+12:13:11.812 response time in milliseconds: 278
 1 &lt; 201
 1 &lt; Server: Cowboy
 1 &lt; Connection: keep-alive
@@ -3482,10 +3482,10 @@
 1 &lt; Access-Control-Allow-Origin: *
 1 &lt; Content-Type: application/json; charset=utf-8
 1 &lt; Content-Length: 224
-1 &lt; Etag: W/&quot;e0-TzO0vxub6w6BFVp+YP/R1Rb2lW8&quot;
-1 &lt; Date: Fri, 09 Jul 2021 09:52:08 GMT
+1 &lt; Etag: W/&quot;e0-uVIfGdazVMvOFIgjK90AN/ot6yU&quot;
+1 &lt; Date: Fri, 09 Jul 2021 10:13:11 GMT
 1 &lt; Via: 1.1 vegur
-{&quot;message&quot;:&quot;User signed in successfully&quot;,&quot;token&quot;:&quot;eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyRW1haWwiOiJ3YWxseTc3N0B3YWxseS5jb20iLCJpYXQiOjE2MjU4MjQzMjgsImV4cCI6MTYyNTk5NzEyOH0.FOi5GmwDRCxSSb8xYaZIs1PEMl4pxZz-0XNoC6nXDl0&quot;}
+{&quot;message&quot;:&quot;User signed in successfully&quot;,&quot;token&quot;:&quot;eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyRW1haWwiOiJ3YWxseTc3N0B3YWxseS5jb20iLCJpYXQiOjE2MjU4MjU1OTEsImV4cCI6MTYyNTk5ODM5MX0.rz3YO7p0uWcO_iV7G2Afb1u_8V76SBzQqoxqu7EQxRQ&quot;}
 </div>   
 
   
@@ -3533,7 +3533,7 @@
         <span>And</span>&nbsp;<span>match response contains deep { &quot;token&quot;: &#39;#string&#39;}</span>
       </div>
     </div>
-    <div class="time-cell passed">0</div>
+    <div class="time-cell passed">1</div>
   </div>
 
    
@@ -3561,7 +3561,7 @@
         <span>*</span>&nbsp;<span>print response</span>
       </div>
     </div>
-    <div class="time-cell passed">3</div>
+    <div class="time-cell passed">2</div>
   </div>
 
    
@@ -3570,9 +3570,9 @@
 
   
 
-  <div class="preformatted" data-parent="6.7.0.call.0.20">11:52:08.331 [print] {
+  <div class="preformatted" data-parent="6.7.0.call.0.20">12:13:11.839 [print] {
   &quot;message&quot;: &quot;User signed in successfully&quot;,
-  &quot;token&quot;: &quot;eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyRW1haWwiOiJ3YWxseTc3N0B3YWxseS5jb20iLCJpYXQiOjE2MjU4MjQzMjgsImV4cCI6MTYyNTk5NzEyOH0.FOi5GmwDRCxSSb8xYaZIs1PEMl4pxZz-0XNoC6nXDl0&quot;
+  &quot;token&quot;: &quot;eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyRW1haWwiOiJ3YWxseTc3N0B3YWxseS5jb20iLCJpYXQiOjE2MjU4MjU1OTEsImV4cCI6MTYyNTk5ODM5MX0.rz3YO7p0uWcO_iV7G2Afb1u_8V76SBzQqoxqu7EQxRQ&quot;
 }
  
 </div>   
@@ -3594,7 +3594,7 @@
         <span>*</span>&nbsp;<span>def token = response.token</span>
       </div>
     </div>
-    <div class="time-cell passed">1</div>
+    <div class="time-cell passed">3</div>
   </div>
 
    
@@ -3627,7 +3627,7 @@
         <span>*</span>&nbsp;<span>def laptop = read(&#39;laptop.json&#39;)</span>
       </div>
     </div>
-    <div class="time-cell passed">4</div>
+    <div class="time-cell passed">10</div>
   </div>
 
    
@@ -3655,7 +3655,7 @@
         <span>*</span>&nbsp;<span>def addToBasket =</span>
       </div>
     </div>
-    <div class="time-cell passed">1</div>
+    <div class="time-cell passed">0</div>
   </div>
 
    
@@ -3666,7 +3666,7 @@
 
   
 
-  <div class="preformatted" data-parent="6.10">11:52:09.641 karate.env system property was: null 
+  <div class="preformatted" data-parent="6.10">12:13:13.165 karate.env system property was: null 
 </div>   
 
   
@@ -3686,7 +3686,7 @@
         <span>Given</span>&nbsp;<span>path &#39;carts&#39;, &#39;addToCart&#39;</span>
       </div>
     </div>
-    <div class="time-cell passed">1</div>
+    <div class="time-cell passed">0</div>
   </div>
 
    
@@ -3714,7 +3714,7 @@
         <span>And</span>&nbsp;<span>header Authorization = &#39;Bearer &#39; + token</span>
       </div>
     </div>
-    <div class="time-cell passed">1</div>
+    <div class="time-cell passed">0</div>
   </div>
 
    
@@ -3770,7 +3770,7 @@
         <span>When</span>&nbsp;<span>method post</span>
       </div>
     </div>
-    <div class="time-cell passed">243</div>
+    <div class="time-cell passed">239</div>
   </div>
 
    
@@ -3826,7 +3826,7 @@
         <span>And</span>&nbsp;<span>match response == {&quot;message&quot;: &#39;Product added to cart&#39;}</span>
       </div>
     </div>
-    <div class="time-cell passed">1</div>
+    <div class="time-cell passed">0</div>
   </div>
 
    
@@ -3854,7 +3854,7 @@
         <span>*</span>&nbsp;<span>print response</span>
       </div>
     </div>
-    <div class="time-cell passed">2</div>
+    <div class="time-cell passed">1</div>
   </div>
 
    
@@ -3863,7 +3863,7 @@
 
   
 
-  <div class="preformatted" data-parent="6.22">11:52:09.892 [print] {
+  <div class="preformatted" data-parent="6.22">12:13:13.407 [print] {
   &quot;message&quot;: &quot;Product added to cart&quot;
 }
  
@@ -3887,7 +3887,7 @@
               </div>
             </div>
             <div class="scenario-time passed">
-              <span>ms:</span>&nbsp;<span>505</span>
+              <span>ms:</span>&nbsp;<span>566</span>
             </div>
           </div>
           <div class="step-row">
@@ -3919,7 +3919,7 @@
 
   
 
-  <div class="preformatted" data-parent="7.6">11:52:08.070 karate.env system property was: null 
+  <div class="preformatted" data-parent="7.6">12:13:11.523 karate.env system property was: null 
 </div>   
 
   
@@ -3939,7 +3939,7 @@
         <span>*</span>&nbsp;<span>call read(&#39;userSignIn.feature&#39;)</span>
       </div>
     </div>
-    <div class="time-cell passed">267</div>
+    <div class="time-cell passed">325</div>
   </div>
 
    
@@ -3958,7 +3958,7 @@
         <div class="step-indent"></div>
         <div class="step-cell passed">examples.fakeShopApi.userSignIn</div>
       </div>
-      <div class="time-cell passed">255</div>
+      <div class="time-cell passed">312</div>
     </div>
     <div>
       <div><div>
@@ -4002,7 +4002,7 @@
         <span>*</span>&nbsp;<span>def signIn =</span>
       </div>
     </div>
-    <div class="time-cell passed">0</div>
+    <div class="time-cell passed">1</div>
   </div>
 
    
@@ -4089,7 +4089,7 @@
         <span>When</span>&nbsp;<span>method post</span>
       </div>
     </div>
-    <div class="time-cell passed">250</div>
+    <div class="time-cell passed">304</div>
   </div>
 
    
@@ -4098,7 +4098,7 @@
 
   
 
-  <div class="preformatted" data-parent="7.7.0.call.0.17">11:52:08.079 request:
+  <div class="preformatted" data-parent="7.7.0.call.0.17">12:13:11.532 request:
 1 &gt; POST http://api.fakeshop-api.com/users/signin
 1 &gt; Content-Type: application/json; charset=UTF-8
 1 &gt; Content-Length: 50
@@ -4108,7 +4108,7 @@
 1 &gt; Accept-Encoding: gzip,deflate
 {&quot;password&quot;:&quot;123456&quot;,&quot;email&quot;:&quot;wally777@wally.com&quot;}
 
-11:52:08.323 response time in milliseconds: 243
+12:13:11.812 response time in milliseconds: 278
 1 &lt; 201
 1 &lt; Server: Cowboy
 1 &lt; Connection: keep-alive
@@ -4116,10 +4116,10 @@
 1 &lt; Access-Control-Allow-Origin: *
 1 &lt; Content-Type: application/json; charset=utf-8
 1 &lt; Content-Length: 224
-1 &lt; Etag: W/&quot;e0-TzO0vxub6w6BFVp+YP/R1Rb2lW8&quot;
-1 &lt; Date: Fri, 09 Jul 2021 09:52:08 GMT
+1 &lt; Etag: W/&quot;e0-uVIfGdazVMvOFIgjK90AN/ot6yU&quot;
+1 &lt; Date: Fri, 09 Jul 2021 10:13:11 GMT
 1 &lt; Via: 1.1 vegur
-{&quot;message&quot;:&quot;User signed in successfully&quot;,&quot;token&quot;:&quot;eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyRW1haWwiOiJ3YWxseTc3N0B3YWxseS5jb20iLCJpYXQiOjE2MjU4MjQzMjgsImV4cCI6MTYyNTk5NzEyOH0.FOi5GmwDRCxSSb8xYaZIs1PEMl4pxZz-0XNoC6nXDl0&quot;}
+{&quot;message&quot;:&quot;User signed in successfully&quot;,&quot;token&quot;:&quot;eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyRW1haWwiOiJ3YWxseTc3N0B3YWxseS5jb20iLCJpYXQiOjE2MjU4MjU1OTEsImV4cCI6MTYyNTk5ODM5MX0.rz3YO7p0uWcO_iV7G2Afb1u_8V76SBzQqoxqu7EQxRQ&quot;}
 </div>   
 
   
@@ -4167,7 +4167,7 @@
         <span>And</span>&nbsp;<span>match response contains deep { &quot;token&quot;: &#39;#string&#39;}</span>
       </div>
     </div>
-    <div class="time-cell passed">0</div>
+    <div class="time-cell passed">1</div>
   </div>
 
    
@@ -4195,7 +4195,7 @@
         <span>*</span>&nbsp;<span>print response</span>
       </div>
     </div>
-    <div class="time-cell passed">3</div>
+    <div class="time-cell passed">2</div>
   </div>
 
    
@@ -4204,9 +4204,9 @@
 
   
 
-  <div class="preformatted" data-parent="7.7.0.call.0.20">11:52:08.331 [print] {
+  <div class="preformatted" data-parent="7.7.0.call.0.20">12:13:11.839 [print] {
   &quot;message&quot;: &quot;User signed in successfully&quot;,
-  &quot;token&quot;: &quot;eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyRW1haWwiOiJ3YWxseTc3N0B3YWxseS5jb20iLCJpYXQiOjE2MjU4MjQzMjgsImV4cCI6MTYyNTk5NzEyOH0.FOi5GmwDRCxSSb8xYaZIs1PEMl4pxZz-0XNoC6nXDl0&quot;
+  &quot;token&quot;: &quot;eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyRW1haWwiOiJ3YWxseTc3N0B3YWxseS5jb20iLCJpYXQiOjE2MjU4MjU1OTEsImV4cCI6MTYyNTk5ODM5MX0.rz3YO7p0uWcO_iV7G2Afb1u_8V76SBzQqoxqu7EQxRQ&quot;
 }
  
 </div>   
@@ -4228,7 +4228,7 @@
         <span>*</span>&nbsp;<span>def token = response.token</span>
       </div>
     </div>
-    <div class="time-cell passed">1</div>
+    <div class="time-cell passed">3</div>
   </div>
 
    
@@ -4261,7 +4261,7 @@
         <span>*</span>&nbsp;<span>def laptop = read(&#39;laptop.json&#39;)</span>
       </div>
     </div>
-    <div class="time-cell passed">4</div>
+    <div class="time-cell passed">10</div>
   </div>
 
    
@@ -4289,7 +4289,7 @@
         <span>*</span>&nbsp;<span>def addToBasket =</span>
       </div>
     </div>
-    <div class="time-cell passed">1</div>
+    <div class="time-cell passed">0</div>
   </div>
 
    
@@ -4300,7 +4300,7 @@
 
   
 
-  <div class="preformatted" data-parent="7.10">11:52:09.911 karate.env system property was: null 
+  <div class="preformatted" data-parent="7.10">12:13:13.431 karate.env system property was: null 
 </div>   
 
   
@@ -4320,7 +4320,7 @@
         <span>Given</span>&nbsp;<span>path &#39;carts&#39;, &#39;addToCart&#39;</span>
       </div>
     </div>
-    <div class="time-cell passed">1</div>
+    <div class="time-cell passed">0</div>
   </div>
 
    
@@ -4404,7 +4404,7 @@
         <span>When</span>&nbsp;<span>method post</span>
       </div>
     </div>
-    <div class="time-cell passed">231</div>
+    <div class="time-cell passed">229</div>
   </div>
 
    
@@ -4488,7 +4488,7 @@
         <span>*</span>&nbsp;<span>print response</span>
       </div>
     </div>
-    <div class="time-cell passed">2</div>
+    <div class="time-cell passed">1</div>
   </div>
 
    
@@ -4497,7 +4497,7 @@
 
   
 
-  <div class="preformatted" data-parent="7.22">11:52:10.148 [print] {
+  <div class="preformatted" data-parent="7.22">12:13:13.663 [print] {
   &quot;message&quot;: &quot;Product added to cart&quot;
 }
  
@@ -4521,7 +4521,7 @@
               </div>
             </div>
             <div class="scenario-time passed">
-              <span>ms:</span>&nbsp;<span>515</span>
+              <span>ms:</span>&nbsp;<span>611</span>
             </div>
           </div>
           <div class="step-row">
@@ -4553,7 +4553,7 @@
 
   
 
-  <div class="preformatted" data-parent="8.6">11:52:08.070 karate.env system property was: null 
+  <div class="preformatted" data-parent="8.6">12:13:11.523 karate.env system property was: null 
 </div>   
 
   
@@ -4573,7 +4573,7 @@
         <span>*</span>&nbsp;<span>call read(&#39;userSignIn.feature&#39;)</span>
       </div>
     </div>
-    <div class="time-cell passed">267</div>
+    <div class="time-cell passed">325</div>
   </div>
 
    
@@ -4592,7 +4592,7 @@
         <div class="step-indent"></div>
         <div class="step-cell passed">examples.fakeShopApi.userSignIn</div>
       </div>
-      <div class="time-cell passed">255</div>
+      <div class="time-cell passed">312</div>
     </div>
     <div>
       <div><div>
@@ -4636,7 +4636,7 @@
         <span>*</span>&nbsp;<span>def signIn =</span>
       </div>
     </div>
-    <div class="time-cell passed">0</div>
+    <div class="time-cell passed">1</div>
   </div>
 
    
@@ -4723,7 +4723,7 @@
         <span>When</span>&nbsp;<span>method post</span>
       </div>
     </div>
-    <div class="time-cell passed">250</div>
+    <div class="time-cell passed">304</div>
   </div>
 
    
@@ -4732,7 +4732,7 @@
 
   
 
-  <div class="preformatted" data-parent="8.7.0.call.0.17">11:52:08.079 request:
+  <div class="preformatted" data-parent="8.7.0.call.0.17">12:13:11.532 request:
 1 &gt; POST http://api.fakeshop-api.com/users/signin
 1 &gt; Content-Type: application/json; charset=UTF-8
 1 &gt; Content-Length: 50
@@ -4742,7 +4742,7 @@
 1 &gt; Accept-Encoding: gzip,deflate
 {&quot;password&quot;:&quot;123456&quot;,&quot;email&quot;:&quot;wally777@wally.com&quot;}
 
-11:52:08.323 response time in milliseconds: 243
+12:13:11.812 response time in milliseconds: 278
 1 &lt; 201
 1 &lt; Server: Cowboy
 1 &lt; Connection: keep-alive
@@ -4750,10 +4750,10 @@
 1 &lt; Access-Control-Allow-Origin: *
 1 &lt; Content-Type: application/json; charset=utf-8
 1 &lt; Content-Length: 224
-1 &lt; Etag: W/&quot;e0-TzO0vxub6w6BFVp+YP/R1Rb2lW8&quot;
-1 &lt; Date: Fri, 09 Jul 2021 09:52:08 GMT
+1 &lt; Etag: W/&quot;e0-uVIfGdazVMvOFIgjK90AN/ot6yU&quot;
+1 &lt; Date: Fri, 09 Jul 2021 10:13:11 GMT
 1 &lt; Via: 1.1 vegur
-{&quot;message&quot;:&quot;User signed in successfully&quot;,&quot;token&quot;:&quot;eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyRW1haWwiOiJ3YWxseTc3N0B3YWxseS5jb20iLCJpYXQiOjE2MjU4MjQzMjgsImV4cCI6MTYyNTk5NzEyOH0.FOi5GmwDRCxSSb8xYaZIs1PEMl4pxZz-0XNoC6nXDl0&quot;}
+{&quot;message&quot;:&quot;User signed in successfully&quot;,&quot;token&quot;:&quot;eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyRW1haWwiOiJ3YWxseTc3N0B3YWxseS5jb20iLCJpYXQiOjE2MjU4MjU1OTEsImV4cCI6MTYyNTk5ODM5MX0.rz3YO7p0uWcO_iV7G2Afb1u_8V76SBzQqoxqu7EQxRQ&quot;}
 </div>   
 
   
@@ -4801,7 +4801,7 @@
         <span>And</span>&nbsp;<span>match response contains deep { &quot;token&quot;: &#39;#string&#39;}</span>
       </div>
     </div>
-    <div class="time-cell passed">0</div>
+    <div class="time-cell passed">1</div>
   </div>
 
    
@@ -4829,7 +4829,7 @@
         <span>*</span>&nbsp;<span>print response</span>
       </div>
     </div>
-    <div class="time-cell passed">3</div>
+    <div class="time-cell passed">2</div>
   </div>
 
    
@@ -4838,9 +4838,9 @@
 
   
 
-  <div class="preformatted" data-parent="8.7.0.call.0.20">11:52:08.331 [print] {
+  <div class="preformatted" data-parent="8.7.0.call.0.20">12:13:11.839 [print] {
   &quot;message&quot;: &quot;User signed in successfully&quot;,
-  &quot;token&quot;: &quot;eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyRW1haWwiOiJ3YWxseTc3N0B3YWxseS5jb20iLCJpYXQiOjE2MjU4MjQzMjgsImV4cCI6MTYyNTk5NzEyOH0.FOi5GmwDRCxSSb8xYaZIs1PEMl4pxZz-0XNoC6nXDl0&quot;
+  &quot;token&quot;: &quot;eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyRW1haWwiOiJ3YWxseTc3N0B3YWxseS5jb20iLCJpYXQiOjE2MjU4MjU1OTEsImV4cCI6MTYyNTk5ODM5MX0.rz3YO7p0uWcO_iV7G2Afb1u_8V76SBzQqoxqu7EQxRQ&quot;
 }
  
 </div>   
@@ -4862,7 +4862,7 @@
         <span>*</span>&nbsp;<span>def token = response.token</span>
       </div>
     </div>
-    <div class="time-cell passed">1</div>
+    <div class="time-cell passed">3</div>
   </div>
 
    
@@ -4895,7 +4895,7 @@
         <span>*</span>&nbsp;<span>def laptop = read(&#39;laptop.json&#39;)</span>
       </div>
     </div>
-    <div class="time-cell passed">4</div>
+    <div class="time-cell passed">10</div>
   </div>
 
    
@@ -4934,7 +4934,7 @@
 
   
 
-  <div class="preformatted" data-parent="8.10">11:52:10.162 karate.env system property was: null 
+  <div class="preformatted" data-parent="8.10">12:13:13.678 karate.env system property was: null 
 </div>   
 
   
@@ -5038,7 +5038,7 @@
         <span>When</span>&nbsp;<span>method post</span>
       </div>
     </div>
-    <div class="time-cell passed">242</div>
+    <div class="time-cell passed">265</div>
   </div>
 
    
@@ -5094,7 +5094,7 @@
         <span>And</span>&nbsp;<span>match response == {&quot;message&quot;: &#39;Product added to cart&#39;}</span>
       </div>
     </div>
-    <div class="time-cell passed">0</div>
+    <div class="time-cell passed">8</div>
   </div>
 
    
@@ -5122,7 +5122,7 @@
         <span>*</span>&nbsp;<span>print response</span>
       </div>
     </div>
-    <div class="time-cell passed">1</div>
+    <div class="time-cell passed">2</div>
   </div>
 
    
@@ -5131,7 +5131,7 @@
 
   
 
-  <div class="preformatted" data-parent="8.22">11:52:10.408 [print] {
+  <div class="preformatted" data-parent="8.22">12:13:13.956 [print] {
   &quot;message&quot;: &quot;Product added to cart&quot;
 }
  

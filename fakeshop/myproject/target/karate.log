@@ -20329,3 +20329,1400 @@ classpath:examples/fakeShopApi/getCarts.feature:14
   "message": "Cart is now empty"
 }
  
+12:13:06.956 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+12:13:08.154 [main] INFO  com.intuit.karate - karate.env system property was: null 
+12:13:09.476 [main] DEBUG com.intuit.karate - request:
+1 > GET http://api.fakeshop-api.com/products/getAllProducts
+1 > Host: api.fakeshop-api.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_241)
+1 > Accept-Encoding: gzip,deflate
+
+
+12:13:09.821 [main] DEBUG com.intuit.karate - response time in milliseconds: 299
+1 < 201
+1 < Server: Cowboy
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 4222
+1 < Etag: W/"107e-cW5jxKG4QpYyY6OjXflEMM+idZ4"
+1 < Date: Fri, 09 Jul 2021 10:13:09 GMT
+1 < Via: 1.1 vegur
+{"products":[{"price":"2969","name":"Apple MacBook Pro 16","description":"Apple MacBook Pro 16 with Touch Bar, 9th-Gen 8-Core Intel i9 2.4GHz, 32GB RAM, 512GB SSD, AMD Radeon Pro 5300M 4GB, Space Gray, Late 2019","id":"1","category":"laptop","brand":"Apple"},{"price":"1580","name":"Dell XPS 13 (9310)","description":"Dell XPS 13 (9310), 13.4- inch FHD+ Touch Laptop - Intel Core i7-1185G7, 16GB 4267MHz LPDDR4x RAM, 512GB SSD, Iris Xe Graphics, Windows 10 Pro - Platinum Silver with Black Palmrest","id":"2","category":"laptop","brand":"Dell"},{"price":"1079","name":"Lenovo ThinkPad E15","description":"OEM Lenovo ThinkPad E15 Gen 2 15.6 FHD Display 1920x1080, Intel Quad Core i5-1135G7, 32GB RAM, 512GB NVMe, W10P, Business Laptop","id":"3","category":"laptop","brand":"Lenovo"},{"price":"999","name":"Apple MacBook Air 13.3","description":"Apple MacBook Air 13.3 with Retina Display, 1.1GHz Quad-Core Intel Core i5, 8GB Memory, 256GB SSD, Silver (Early 2020)","id":"4","category":"laptop","brand":"Apple"},{"price":"2990","name":"ASUS ZenBook Pro Duo UX581","description":"ASUS ZenBook Pro Duo UX581 Laptop, 15.6 4K UHD NanoEdge Touch Display, Intel Core i9-10980HK, 32GB RAM, 1TB PCIe SSD, GeForce RTX 2060, ScreenPad Plus, Windows 10 Pro, Celestial Blue, UX581LV-XS94T","id":"5","category":"laptop","brand":"Asus"},{"price":"599","name":"ASUS VivoBook 15","description":"ASUS VivoBook 15 Thin and Light Laptop- 15.6 Full HD, Intel i5-1035G1 CPU, 8GB RAM, 512GB SSD, Backlit KeyBoard, Fingerprint, Windows 10- F512JA-AS54, Slate Gray","id":"6","category":"laptop","brand":"Asus"},{"price":"729","name":"Lenovo IdeaPad S340 15.6","description":"2021 Lenovo IdeaPad S340 15.6 FHD Touchscreen Laptop, AMD Ryzen 7 3700U Processor, 12GB Memory, 512GB SSD, Backlit Keyboard, HDMI, AMD Radeon Vega 10, Windows 10 S, Abyss Blue, W\/ IFT Accessories","id":"7","category":"laptop","brand":"Lenovo"},{"price":"898","name":"Dell Inspiron 15 5502","description":"Dell Inspiron 15 5502 Thin & Light Laptop, 15.6 inch FHD - Intel Core i7-1165G7, 8GB 3200MHz DDR4 RAM, 512GB SSD, NVIDIA GeForce MX330 2GB GDDR5, Windows 10 Home - Platinum Silver","id":"8","category":"laptop","brand":"Dell"},{"price":"375","name":"Lenovo G34w-10 34-Inch","description":"Lenovo G34w-10 34-Inch WQHD Curved Gaming Monitor, 21:9 Ultra-Wide, 3 Side NearEdgeless, 3440 x 1440, AMD FreeSync, 144Hz, HDMI, DP, Adjustable Stand, VESA, 66A1GCCBUS, Black","id":"9","category":"monitor","brand":"Lenovo"},{"price":"380","name":"ASUS TUF Gaming 32 2K HDR Curved Monitor","description":"ASUS TUF Gaming 32 2K HDR Curved Monitor (VG32VQ1B) - WQHD (2560 x 1440), 165Hz (Supports 144Hz), 1ms, Extreme Low Motion Blur, Speaker, FreeSync Premium, VESA Mountable, DisplayPort, HDMI","id":"10","category":"monitor","brand":"Asus"},{"price":"245","name":"Dell UltraSharp 24-inch FHD Monitor","description":"Dell UltraSharp 24-inch FHD Monitor - U2419HX. Full HD 1920 x 1080, 60 Hz. Tilt, swivel, pivot and vertical extension adjustment capabilities","id":"11","category":"monitor","brand":"Dell"},{"price":"32","name":"LeadsaiL Wireless Keyboard and Mouse Combo","description":"Wireless Keyboard and Mouse Combo, LeadsaiL Compact Quiet Full Size Wireless Keyboard and Mouse Set 2.4G Ultra-Thin Sleek Design for Windows, Computer, Desktop, PC, Notebook, Laptop (Black+Grey)","id":"12","category":"accessories","brand":"Leadsail"},{"price":"29","name":"Amazon Basics Keyboard and Mouse Combo","description":"Amazon Basics Wireless Computer Keyboard and Mouse Combo - Quiet and Compact - US Layout (QWERTY)","id":"13","category":"accessories","brand":"Amazon"},{"price":"23","name":"Cimetech Wireless Keyboard Mouse Combo","description":"Wireless Keyboard Mouse Combo, Cimetech Compact Full Size Wireless Keyboard and Mouse Set 2.4G Ultra-Thin Sleek Design for Windows, Computer, Desktop, PC, Notebook - (Wine red)","id":"14","category":"accessories","brand":"Cimetech"},{"price":"26","name":"Logitech MK295 Wireless Mouse & Keyboard Combo","description":"Logitech MK295 Wireless Mouse & Keyboard Combo with SilentTouch Technology, Full Numpad, Advanced Optical Tracking, Lag-Free Wireless, 90% Less Noise - Graphite","id":"15","category":"accessories","brand":"Logitech"}]}
+12:13:09.832 [main] INFO  com.intuit.karate - [print] {
+  "products": [
+    {
+      "price": "2969",
+      "name": "Apple MacBook Pro 16",
+      "description": "Apple MacBook Pro 16 with Touch Bar, 9th-Gen 8-Core Intel i9 2.4GHz, 32GB RAM, 512GB SSD, AMD Radeon Pro 5300M 4GB, Space Gray, Late 2019",
+      "id": "1",
+      "category": "laptop",
+      "brand": "Apple"
+    },
+    {
+      "price": "1580",
+      "name": "Dell XPS 13 (9310)",
+      "description": "Dell XPS 13 (9310), 13.4- inch FHD+ Touch Laptop - Intel Core i7-1185G7, 16GB 4267MHz LPDDR4x RAM, 512GB SSD, Iris Xe Graphics, Windows 10 Pro - Platinum Silver with Black Palmrest",
+      "id": "2",
+      "category": "laptop",
+      "brand": "Dell"
+    },
+    {
+      "price": "1079",
+      "name": "Lenovo ThinkPad E15",
+      "description": "OEM Lenovo ThinkPad E15 Gen 2 15.6 FHD Display 1920x1080, Intel Quad Core i5-1135G7, 32GB RAM, 512GB NVMe, W10P, Business Laptop",
+      "id": "3",
+      "category": "laptop",
+      "brand": "Lenovo"
+    },
+    {
+      "price": "999",
+      "name": "Apple MacBook Air 13.3",
+      "description": "Apple MacBook Air 13.3 with Retina Display, 1.1GHz Quad-Core Intel Core i5, 8GB Memory, 256GB SSD, Silver (Early 2020)",
+      "id": "4",
+      "category": "laptop",
+      "brand": "Apple"
+    },
+    {
+      "price": "2990",
+      "name": "ASUS ZenBook Pro Duo UX581",
+      "description": "ASUS ZenBook Pro Duo UX581 Laptop, 15.6 4K UHD NanoEdge Touch Display, Intel Core i9-10980HK, 32GB RAM, 1TB PCIe SSD, GeForce RTX 2060, ScreenPad Plus, Windows 10 Pro, Celestial Blue, UX581LV-XS94T",
+      "id": "5",
+      "category": "laptop",
+      "brand": "Asus"
+    },
+    {
+      "price": "599",
+      "name": "ASUS VivoBook 15",
+      "description": "ASUS VivoBook 15 Thin and Light Laptop- 15.6 Full HD, Intel i5-1035G1 CPU, 8GB RAM, 512GB SSD, Backlit KeyBoard, Fingerprint, Windows 10- F512JA-AS54, Slate Gray",
+      "id": "6",
+      "category": "laptop",
+      "brand": "Asus"
+    },
+    {
+      "price": "729",
+      "name": "Lenovo IdeaPad S340 15.6",
+      "description": "2021 Lenovo IdeaPad S340 15.6 FHD Touchscreen Laptop, AMD Ryzen 7 3700U Processor, 12GB Memory, 512GB SSD, Backlit Keyboard, HDMI, AMD Radeon Vega 10, Windows 10 S, Abyss Blue, W/ IFT Accessories",
+      "id": "7",
+      "category": "laptop",
+      "brand": "Lenovo"
+    },
+    {
+      "price": "898",
+      "name": "Dell Inspiron 15 5502",
+      "description": "Dell Inspiron 15 5502 Thin & Light Laptop, 15.6 inch FHD - Intel Core i7-1165G7, 8GB 3200MHz DDR4 RAM, 512GB SSD, NVIDIA GeForce MX330 2GB GDDR5, Windows 10 Home - Platinum Silver",
+      "id": "8",
+      "category": "laptop",
+      "brand": "Dell"
+    },
+    {
+      "price": "375",
+      "name": "Lenovo G34w-10 34-Inch",
+      "description": "Lenovo G34w-10 34-Inch WQHD Curved Gaming Monitor, 21:9 Ultra-Wide, 3 Side NearEdgeless, 3440 x 1440, AMD FreeSync, 144Hz, HDMI, DP, Adjustable Stand, VESA, 66A1GCCBUS, Black",
+      "id": "9",
+      "category": "monitor",
+      "brand": "Lenovo"
+    },
+    {
+      "price": "380",
+      "name": "ASUS TUF Gaming 32 2K HDR Curved Monitor",
+      "description": "ASUS TUF Gaming 32 2K HDR Curved Monitor (VG32VQ1B) - WQHD (2560 x 1440), 165Hz (Supports 144Hz), 1ms, Extreme Low Motion Blur, Speaker, FreeSync Premium, VESA Mountable, DisplayPort, HDMI",
+      "id": "10",
+      "category": "monitor",
+      "brand": "Asus"
+    },
+    {
+      "price": "245",
+      "name": "Dell UltraSharp 24-inch FHD Monitor",
+      "description": "Dell UltraSharp 24-inch FHD Monitor - U2419HX. Full HD 1920 x 1080, 60 Hz. Tilt, swivel, pivot and vertical extension adjustment capabilities",
+      "id": "11",
+      "category": "monitor",
+      "brand": "Dell"
+    },
+    {
+      "price": "32",
+      "name": "LeadsaiL Wireless Keyboard and Mouse Combo",
+      "description": "Wireless Keyboard and Mouse Combo, LeadsaiL Compact Quiet Full Size Wireless Keyboard and Mouse Set 2.4G Ultra-Thin Sleek Design for Windows, Computer, Desktop, PC, Notebook, Laptop (Black+Grey)",
+      "id": "12",
+      "category": "accessories",
+      "brand": "Leadsail"
+    },
+    {
+      "price": "29",
+      "name": "Amazon Basics Keyboard and Mouse Combo",
+      "description": "Amazon Basics Wireless Computer Keyboard and Mouse Combo - Quiet and Compact - US Layout (QWERTY)",
+      "id": "13",
+      "category": "accessories",
+      "brand": "Amazon"
+    },
+    {
+      "price": "23",
+      "name": "Cimetech Wireless Keyboard Mouse Combo",
+      "description": "Wireless Keyboard Mouse Combo, Cimetech Compact Full Size Wireless Keyboard and Mouse Set 2.4G Ultra-Thin Sleek Design for Windows, Computer, Desktop, PC, Notebook - (Wine red)",
+      "id": "14",
+      "category": "accessories",
+      "brand": "Cimetech"
+    },
+    {
+      "price": "26",
+      "name": "Logitech MK295 Wireless Mouse & Keyboard Combo",
+      "description": "Logitech MK295 Wireless Mouse & Keyboard Combo with SilentTouch Technology, Full Numpad, Advanced Optical Tracking, Lag-Free Wireless, 90% Less Noise - Graphite",
+      "id": "15",
+      "category": "accessories",
+      "brand": "Logitech"
+    }
+  ]
+}
+ 
+12:13:09.844 [main] INFO  com.intuit.karate - [print] [
+  {
+    "price": "2969",
+    "name": "Apple MacBook Pro 16",
+    "description": "Apple MacBook Pro 16 with Touch Bar, 9th-Gen 8-Core Intel i9 2.4GHz, 32GB RAM, 512GB SSD, AMD Radeon Pro 5300M 4GB, Space Gray, Late 2019",
+    "id": "1",
+    "category": "laptop",
+    "brand": "Apple"
+  },
+  {
+    "price": "1580",
+    "name": "Dell XPS 13 (9310)",
+    "description": "Dell XPS 13 (9310), 13.4- inch FHD+ Touch Laptop - Intel Core i7-1185G7, 16GB 4267MHz LPDDR4x RAM, 512GB SSD, Iris Xe Graphics, Windows 10 Pro - Platinum Silver with Black Palmrest",
+    "id": "2",
+    "category": "laptop",
+    "brand": "Dell"
+  },
+  {
+    "price": "1079",
+    "name": "Lenovo ThinkPad E15",
+    "description": "OEM Lenovo ThinkPad E15 Gen 2 15.6 FHD Display 1920x1080, Intel Quad Core i5-1135G7, 32GB RAM, 512GB NVMe, W10P, Business Laptop",
+    "id": "3",
+    "category": "laptop",
+    "brand": "Lenovo"
+  },
+  {
+    "price": "999",
+    "name": "Apple MacBook Air 13.3",
+    "description": "Apple MacBook Air 13.3 with Retina Display, 1.1GHz Quad-Core Intel Core i5, 8GB Memory, 256GB SSD, Silver (Early 2020)",
+    "id": "4",
+    "category": "laptop",
+    "brand": "Apple"
+  },
+  {
+    "price": "2990",
+    "name": "ASUS ZenBook Pro Duo UX581",
+    "description": "ASUS ZenBook Pro Duo UX581 Laptop, 15.6 4K UHD NanoEdge Touch Display, Intel Core i9-10980HK, 32GB RAM, 1TB PCIe SSD, GeForce RTX 2060, ScreenPad Plus, Windows 10 Pro, Celestial Blue, UX581LV-XS94T",
+    "id": "5",
+    "category": "laptop",
+    "brand": "Asus"
+  },
+  {
+    "price": "599",
+    "name": "ASUS VivoBook 15",
+    "description": "ASUS VivoBook 15 Thin and Light Laptop- 15.6 Full HD, Intel i5-1035G1 CPU, 8GB RAM, 512GB SSD, Backlit KeyBoard, Fingerprint, Windows 10- F512JA-AS54, Slate Gray",
+    "id": "6",
+    "category": "laptop",
+    "brand": "Asus"
+  },
+  {
+    "price": "729",
+    "name": "Lenovo IdeaPad S340 15.6",
+    "description": "2021 Lenovo IdeaPad S340 15.6 FHD Touchscreen Laptop, AMD Ryzen 7 3700U Processor, 12GB Memory, 512GB SSD, Backlit Keyboard, HDMI, AMD Radeon Vega 10, Windows 10 S, Abyss Blue, W/ IFT Accessories",
+    "id": "7",
+    "category": "laptop",
+    "brand": "Lenovo"
+  },
+  {
+    "price": "898",
+    "name": "Dell Inspiron 15 5502",
+    "description": "Dell Inspiron 15 5502 Thin & Light Laptop, 15.6 inch FHD - Intel Core i7-1165G7, 8GB 3200MHz DDR4 RAM, 512GB SSD, NVIDIA GeForce MX330 2GB GDDR5, Windows 10 Home - Platinum Silver",
+    "id": "8",
+    "category": "laptop",
+    "brand": "Dell"
+  }
+]
+ 
+12:13:09.849 [main] DEBUG com.intuit.karate - write to file: target\..\src\test\java\examples\fakeShopApi\laptop.json
+12:13:10.636 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+12:13:10.644 [main] INFO  com.intuit.karate - karate.env system property was: null 
+12:13:10.726 [main] DEBUG com.intuit.karate - request:
+1 > POST http://api.fakeshop-api.com/users/signin
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 50
+1 > Host: api.fakeshop-api.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_241)
+1 > Accept-Encoding: gzip,deflate
+{"password":"123456","email":"wally777@wally.com"}
+
+12:13:10.985 [main] DEBUG com.intuit.karate - response time in milliseconds: 259
+1 < 201
+1 < Server: Cowboy
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 224
+1 < Etag: W/"e0-uVIfGdazVMvOFIgjK90AN/ot6yU"
+1 < Date: Fri, 09 Jul 2021 10:13:11 GMT
+1 < Via: 1.1 vegur
+{"message":"User signed in successfully","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyRW1haWwiOiJ3YWxseTc3N0B3YWxseS5jb20iLCJpYXQiOjE2MjU4MjU1OTEsImV4cCI6MTYyNTk5ODM5MX0.rz3YO7p0uWcO_iV7G2Afb1u_8V76SBzQqoxqu7EQxRQ"}
+12:13:11.029 [main] INFO  com.intuit.karate - [print] {
+  "message": "User signed in successfully",
+  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyRW1haWwiOiJ3YWxseTc3N0B3YWxseS5jb20iLCJpYXQiOjE2MjU4MjU1OTEsImV4cCI6MTYyNTk5ODM5MX0.rz3YO7p0uWcO_iV7G2Afb1u_8V76SBzQqoxqu7EQxRQ"
+}
+ 
+12:13:11.035 [main] DEBUG com.intuit.karate - request:
+1 > POST http://api.fakeshop-api.com/carts/emptyCart
+1 > Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyRW1haWwiOiJ3YWxseTc3N0B3YWxseS5jb20iLCJpYXQiOjE2MjU4MjU1OTEsImV4cCI6MTYyNTk5ODM5MX0.rz3YO7p0uWcO_iV7G2Afb1u_8V76SBzQqoxqu7EQxRQ
+1 > Host: api.fakeshop-api.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_241)
+1 > Accept-Encoding: gzip,deflate
+
+
+12:13:11.264 [main] DEBUG com.intuit.karate - response time in milliseconds: 229
+1 < 201
+1 < Server: Cowboy
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 31
+1 < Etag: W/"1f-uVjpI6rHViLny/uTsG6jJSVb1Qo"
+1 < Date: Fri, 09 Jul 2021 10:13:11 GMT
+1 < Via: 1.1 vegur
+{"message":"Cart is now empty"}
+12:13:11.271 [main] INFO  com.intuit.karate - [print] {
+  "message": "Cart is now empty"
+}
+ 
+12:13:11.518 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+12:13:11.522 [main] INFO  com.intuit.karate - karate.env system property was: null 
+12:13:11.531 [main] DEBUG com.intuit.karate - request:
+1 > POST http://api.fakeshop-api.com/users/signin
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 50
+1 > Host: api.fakeshop-api.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_241)
+1 > Accept-Encoding: gzip,deflate
+{"password":"123456","email":"wally777@wally.com"}
+
+12:13:11.810 [main] DEBUG com.intuit.karate - response time in milliseconds: 278
+1 < 201
+1 < Server: Cowboy
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 224
+1 < Etag: W/"e0-uVIfGdazVMvOFIgjK90AN/ot6yU"
+1 < Date: Fri, 09 Jul 2021 10:13:11 GMT
+1 < Via: 1.1 vegur
+{"message":"User signed in successfully","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyRW1haWwiOiJ3YWxseTc3N0B3YWxseS5jb20iLCJpYXQiOjE2MjU4MjU1OTEsImV4cCI6MTYyNTk5ODM5MX0.rz3YO7p0uWcO_iV7G2Afb1u_8V76SBzQqoxqu7EQxRQ"}
+12:13:11.837 [main] INFO  com.intuit.karate - [print] {
+  "message": "User signed in successfully",
+  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyRW1haWwiOiJ3YWxseTc3N0B3YWxseS5jb20iLCJpYXQiOjE2MjU4MjU1OTEsImV4cCI6MTYyNTk5ODM5MX0.rz3YO7p0uWcO_iV7G2Afb1u_8V76SBzQqoxqu7EQxRQ"
+}
+ 
+12:13:11.873 [main] INFO  com.intuit.karate - karate.env system property was: null 
+12:13:11.876 [main] DEBUG com.intuit.karate - request:
+1 > POST http://api.fakeshop-api.com/carts/addToCart
+1 > Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyRW1haWwiOiJ3YWxseTc3N0B3YWxseS5jb20iLCJpYXQiOjE2MjU4MjU1OTEsImV4cCI6MTYyNTk5ODM5MX0.rz3YO7p0uWcO_iV7G2Afb1u_8V76SBzQqoxqu7EQxRQ
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 8
+1 > Host: api.fakeshop-api.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_241)
+1 > Accept-Encoding: gzip,deflate
+{"id":1}
+
+12:13:12.122 [main] DEBUG com.intuit.karate - response time in milliseconds: 245
+1 < 201
+1 < Server: Cowboy
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 35
+1 < Etag: W/"23-ePt5zWjLAu5+pSzcrd9zzERqTd8"
+1 < Date: Fri, 09 Jul 2021 10:13:12 GMT
+1 < Via: 1.1 vegur
+{"message":"Product added to cart"}
+12:13:12.142 [main] INFO  com.intuit.karate - [print] {
+  "message": "Product added to cart"
+}
+ 
+12:13:12.149 [main] INFO  com.intuit.karate - karate.env system property was: null 
+12:13:12.151 [main] DEBUG com.intuit.karate - request:
+2 > POST http://api.fakeshop-api.com/carts/addToCart
+2 > Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyRW1haWwiOiJ3YWxseTc3N0B3YWxseS5jb20iLCJpYXQiOjE2MjU4MjU1OTEsImV4cCI6MTYyNTk5ODM5MX0.rz3YO7p0uWcO_iV7G2Afb1u_8V76SBzQqoxqu7EQxRQ
+2 > Content-Type: application/json; charset=UTF-8
+2 > Content-Length: 8
+2 > Host: api.fakeshop-api.com
+2 > Connection: Keep-Alive
+2 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_241)
+2 > Accept-Encoding: gzip,deflate
+{"id":2}
+
+12:13:12.372 [main] DEBUG com.intuit.karate - response time in milliseconds: 220
+2 < 201
+2 < Server: Cowboy
+2 < Connection: keep-alive
+2 < X-Powered-By: Express
+2 < Access-Control-Allow-Origin: *
+2 < Content-Type: application/json; charset=utf-8
+2 < Content-Length: 35
+2 < Etag: W/"23-ePt5zWjLAu5+pSzcrd9zzERqTd8"
+2 < Date: Fri, 09 Jul 2021 10:13:12 GMT
+2 < Via: 1.1 vegur
+{"message":"Product added to cart"}
+12:13:12.373 [main] INFO  com.intuit.karate - [print] {
+  "message": "Product added to cart"
+}
+ 
+12:13:12.379 [main] INFO  com.intuit.karate - karate.env system property was: null 
+12:13:12.381 [main] DEBUG com.intuit.karate - request:
+3 > POST http://api.fakeshop-api.com/carts/addToCart
+3 > Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyRW1haWwiOiJ3YWxseTc3N0B3YWxseS5jb20iLCJpYXQiOjE2MjU4MjU1OTEsImV4cCI6MTYyNTk5ODM5MX0.rz3YO7p0uWcO_iV7G2Afb1u_8V76SBzQqoxqu7EQxRQ
+3 > Content-Type: application/json; charset=UTF-8
+3 > Content-Length: 8
+3 > Host: api.fakeshop-api.com
+3 > Connection: Keep-Alive
+3 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_241)
+3 > Accept-Encoding: gzip,deflate
+{"id":3}
+
+12:13:12.617 [main] DEBUG com.intuit.karate - response time in milliseconds: 236
+3 < 201
+3 < Server: Cowboy
+3 < Connection: keep-alive
+3 < X-Powered-By: Express
+3 < Access-Control-Allow-Origin: *
+3 < Content-Type: application/json; charset=utf-8
+3 < Content-Length: 35
+3 < Etag: W/"23-ePt5zWjLAu5+pSzcrd9zzERqTd8"
+3 < Date: Fri, 09 Jul 2021 10:13:12 GMT
+3 < Via: 1.1 vegur
+{"message":"Product added to cart"}
+12:13:12.621 [main] INFO  com.intuit.karate - [print] {
+  "message": "Product added to cart"
+}
+ 
+12:13:12.643 [main] INFO  com.intuit.karate - karate.env system property was: null 
+12:13:12.649 [main] DEBUG com.intuit.karate - request:
+4 > POST http://api.fakeshop-api.com/carts/addToCart
+4 > Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyRW1haWwiOiJ3YWxseTc3N0B3YWxseS5jb20iLCJpYXQiOjE2MjU4MjU1OTEsImV4cCI6MTYyNTk5ODM5MX0.rz3YO7p0uWcO_iV7G2Afb1u_8V76SBzQqoxqu7EQxRQ
+4 > Content-Type: application/json; charset=UTF-8
+4 > Content-Length: 8
+4 > Host: api.fakeshop-api.com
+4 > Connection: Keep-Alive
+4 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_241)
+4 > Accept-Encoding: gzip,deflate
+{"id":4}
+
+12:13:12.882 [main] DEBUG com.intuit.karate - response time in milliseconds: 231
+4 < 201
+4 < Server: Cowboy
+4 < Connection: keep-alive
+4 < X-Powered-By: Express
+4 < Access-Control-Allow-Origin: *
+4 < Content-Type: application/json; charset=utf-8
+4 < Content-Length: 35
+4 < Etag: W/"23-ePt5zWjLAu5+pSzcrd9zzERqTd8"
+4 < Date: Fri, 09 Jul 2021 10:13:12 GMT
+4 < Via: 1.1 vegur
+{"message":"Product added to cart"}
+12:13:12.885 [main] INFO  com.intuit.karate - [print] {
+  "message": "Product added to cart"
+}
+ 
+12:13:12.900 [main] INFO  com.intuit.karate - karate.env system property was: null 
+12:13:12.906 [main] DEBUG com.intuit.karate - request:
+5 > POST http://api.fakeshop-api.com/carts/addToCart
+5 > Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyRW1haWwiOiJ3YWxseTc3N0B3YWxseS5jb20iLCJpYXQiOjE2MjU4MjU1OTEsImV4cCI6MTYyNTk5ODM5MX0.rz3YO7p0uWcO_iV7G2Afb1u_8V76SBzQqoxqu7EQxRQ
+5 > Content-Type: application/json; charset=UTF-8
+5 > Content-Length: 8
+5 > Host: api.fakeshop-api.com
+5 > Connection: Keep-Alive
+5 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_241)
+5 > Accept-Encoding: gzip,deflate
+{"id":5}
+
+12:13:13.146 [main] DEBUG com.intuit.karate - response time in milliseconds: 239
+5 < 201
+5 < Server: Cowboy
+5 < Connection: keep-alive
+5 < X-Powered-By: Express
+5 < Access-Control-Allow-Origin: *
+5 < Content-Type: application/json; charset=utf-8
+5 < Content-Length: 35
+5 < Etag: W/"23-ePt5zWjLAu5+pSzcrd9zzERqTd8"
+5 < Date: Fri, 09 Jul 2021 10:13:13 GMT
+5 < Via: 1.1 vegur
+{"message":"Product added to cart"}
+12:13:13.151 [main] INFO  com.intuit.karate - [print] {
+  "message": "Product added to cart"
+}
+ 
+12:13:13.164 [main] INFO  com.intuit.karate - karate.env system property was: null 
+12:13:13.167 [main] DEBUG com.intuit.karate - request:
+6 > POST http://api.fakeshop-api.com/carts/addToCart
+6 > Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyRW1haWwiOiJ3YWxseTc3N0B3YWxseS5jb20iLCJpYXQiOjE2MjU4MjU1OTEsImV4cCI6MTYyNTk5ODM5MX0.rz3YO7p0uWcO_iV7G2Afb1u_8V76SBzQqoxqu7EQxRQ
+6 > Content-Type: application/json; charset=UTF-8
+6 > Content-Length: 8
+6 > Host: api.fakeshop-api.com
+6 > Connection: Keep-Alive
+6 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_241)
+6 > Accept-Encoding: gzip,deflate
+{"id":6}
+
+12:13:13.403 [main] DEBUG com.intuit.karate - response time in milliseconds: 236
+6 < 201
+6 < Server: Cowboy
+6 < Connection: keep-alive
+6 < X-Powered-By: Express
+6 < Access-Control-Allow-Origin: *
+6 < Content-Type: application/json; charset=utf-8
+6 < Content-Length: 35
+6 < Etag: W/"23-ePt5zWjLAu5+pSzcrd9zzERqTd8"
+6 < Date: Fri, 09 Jul 2021 10:13:13 GMT
+6 < Via: 1.1 vegur
+{"message":"Product added to cart"}
+12:13:13.406 [main] INFO  com.intuit.karate - [print] {
+  "message": "Product added to cart"
+}
+ 
+12:13:13.430 [main] INFO  com.intuit.karate - karate.env system property was: null 
+12:13:13.433 [main] DEBUG com.intuit.karate - request:
+7 > POST http://api.fakeshop-api.com/carts/addToCart
+7 > Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyRW1haWwiOiJ3YWxseTc3N0B3YWxseS5jb20iLCJpYXQiOjE2MjU4MjU1OTEsImV4cCI6MTYyNTk5ODM5MX0.rz3YO7p0uWcO_iV7G2Afb1u_8V76SBzQqoxqu7EQxRQ
+7 > Content-Type: application/json; charset=UTF-8
+7 > Content-Length: 8
+7 > Host: api.fakeshop-api.com
+7 > Connection: Keep-Alive
+7 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_241)
+7 > Accept-Encoding: gzip,deflate
+{"id":7}
+
+12:13:13.659 [main] DEBUG com.intuit.karate - response time in milliseconds: 224
+7 < 201
+7 < Server: Cowboy
+7 < Connection: keep-alive
+7 < X-Powered-By: Express
+7 < Access-Control-Allow-Origin: *
+7 < Content-Type: application/json; charset=utf-8
+7 < Content-Length: 35
+7 < Etag: W/"23-ePt5zWjLAu5+pSzcrd9zzERqTd8"
+7 < Date: Fri, 09 Jul 2021 10:13:13 GMT
+7 < Via: 1.1 vegur
+{"message":"Product added to cart"}
+12:13:13.662 [main] INFO  com.intuit.karate - [print] {
+  "message": "Product added to cart"
+}
+ 
+12:13:13.677 [main] INFO  com.intuit.karate - karate.env system property was: null 
+12:13:13.684 [main] DEBUG com.intuit.karate - request:
+8 > POST http://api.fakeshop-api.com/carts/addToCart
+8 > Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyRW1haWwiOiJ3YWxseTc3N0B3YWxseS5jb20iLCJpYXQiOjE2MjU4MjU1OTEsImV4cCI6MTYyNTk5ODM5MX0.rz3YO7p0uWcO_iV7G2Afb1u_8V76SBzQqoxqu7EQxRQ
+8 > Content-Type: application/json; charset=UTF-8
+8 > Content-Length: 8
+8 > Host: api.fakeshop-api.com
+8 > Connection: Keep-Alive
+8 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_241)
+8 > Accept-Encoding: gzip,deflate
+{"id":8}
+
+12:13:13.944 [main] DEBUG com.intuit.karate - response time in milliseconds: 258
+8 < 201
+8 < Server: Cowboy
+8 < Connection: keep-alive
+8 < X-Powered-By: Express
+8 < Access-Control-Allow-Origin: *
+8 < Content-Type: application/json; charset=utf-8
+8 < Content-Length: 35
+8 < Etag: W/"23-ePt5zWjLAu5+pSzcrd9zzERqTd8"
+8 < Date: Fri, 09 Jul 2021 10:13:13 GMT
+8 < Via: 1.1 vegur
+{"message":"Product added to cart"}
+12:13:13.955 [main] INFO  com.intuit.karate - [print] {
+  "message": "Product added to cart"
+}
+ 
+12:13:14.393 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+12:13:14.397 [main] INFO  com.intuit.karate - karate.env system property was: null 
+12:13:14.401 [main] DEBUG com.intuit.karate - request:
+1 > POST http://api.fakeshop-api.com/users/signin
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 50
+1 > Host: api.fakeshop-api.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_241)
+1 > Accept-Encoding: gzip,deflate
+{"password":"123456","email":"wally777@wally.com"}
+
+12:13:14.671 [main] DEBUG com.intuit.karate - response time in milliseconds: 270
+1 < 201
+1 < Server: Cowboy
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 224
+1 < Etag: W/"e0-3DXA/BxUolZ1xp9V4P6dilCkfrU"
+1 < Date: Fri, 09 Jul 2021 10:13:14 GMT
+1 < Via: 1.1 vegur
+{"message":"User signed in successfully","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyRW1haWwiOiJ3YWxseTc3N0B3YWxseS5jb20iLCJpYXQiOjE2MjU4MjU1OTQsImV4cCI6MTYyNTk5ODM5NH0.gjLqEVGentAj904lpSuApYlc4gCoWbCeNyPlFXSvLS8"}
+12:13:14.672 [main] INFO  com.intuit.karate - [print] {
+  "message": "User signed in successfully",
+  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyRW1haWwiOiJ3YWxseTc3N0B3YWxseS5jb20iLCJpYXQiOjE2MjU4MjU1OTQsImV4cCI6MTYyNTk5ODM5NH0.gjLqEVGentAj904lpSuApYlc4gCoWbCeNyPlFXSvLS8"
+}
+ 
+12:13:14.679 [main] INFO  com.intuit.karate - karate.env system property was: null 
+12:13:14.681 [main] DEBUG com.intuit.karate - request:
+1 > GET http://api.fakeshop-api.com/carts/getCart
+1 > Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyRW1haWwiOiJ3YWxseTc3N0B3YWxseS5jb20iLCJpYXQiOjE2MjU4MjU1OTQsImV4cCI6MTYyNTk5ODM5NH0.gjLqEVGentAj904lpSuApYlc4gCoWbCeNyPlFXSvLS8
+1 > Host: api.fakeshop-api.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_241)
+1 > Accept-Encoding: gzip,deflate
+
+
+12:13:14.964 [main] DEBUG com.intuit.karate - response time in milliseconds: 282
+1 < 201
+1 < Server: Cowboy
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 2281
+1 < Etag: W/"8e9-TrC0g9GHAoQduBoM5Ho/NNF/NDU"
+1 < Date: Fri, 09 Jul 2021 10:13:14 GMT
+1 < Via: 1.1 vegur
+{"cart":[{"quantity":1,"price":"2969","name":"Apple MacBook Pro 16","description":"Apple MacBook Pro 16 with Touch Bar, 9th-Gen 8-Core Intel i9 2.4GHz, 32GB RAM, 512GB SSD, AMD Radeon Pro 5300M 4GB, Space Gray, Late 2019","id":"1","category":"laptop","brand":"Apple"},{"quantity":1,"price":"1580","name":"Dell XPS 13 (9310)","description":"Dell XPS 13 (9310), 13.4- inch FHD+ Touch Laptop - Intel Core i7-1185G7, 16GB 4267MHz LPDDR4x RAM, 512GB SSD, Iris Xe Graphics, Windows 10 Pro - Platinum Silver with Black Palmrest","id":"2","category":"laptop","brand":"Dell"},{"quantity":1,"price":"1079","name":"Lenovo ThinkPad E15","description":"OEM Lenovo ThinkPad E15 Gen 2 15.6 FHD Display 1920x1080, Intel Quad Core i5-1135G7, 32GB RAM, 512GB NVMe, W10P, Business Laptop","id":"3","category":"laptop","brand":"Lenovo"},{"quantity":1,"price":"999","name":"Apple MacBook Air 13.3","description":"Apple MacBook Air 13.3 with Retina Display, 1.1GHz Quad-Core Intel Core i5, 8GB Memory, 256GB SSD, Silver (Early 2020)","id":"4","category":"laptop","brand":"Apple"},{"quantity":1,"price":"2990","name":"ASUS ZenBook Pro Duo UX581","description":"ASUS ZenBook Pro Duo UX581 Laptop, 15.6 4K UHD NanoEdge Touch Display, Intel Core i9-10980HK, 32GB RAM, 1TB PCIe SSD, GeForce RTX 2060, ScreenPad Plus, Windows 10 Pro, Celestial Blue, UX581LV-XS94T","id":"5","category":"laptop","brand":"Asus"},{"quantity":1,"price":"599","name":"ASUS VivoBook 15","description":"ASUS VivoBook 15 Thin and Light Laptop- 15.6 Full HD, Intel i5-1035G1 CPU, 8GB RAM, 512GB SSD, Backlit KeyBoard, Fingerprint, Windows 10- F512JA-AS54, Slate Gray","id":"6","category":"laptop","brand":"Asus"},{"quantity":1,"price":"729","name":"Lenovo IdeaPad S340 15.6","description":"2021 Lenovo IdeaPad S340 15.6 FHD Touchscreen Laptop, AMD Ryzen 7 3700U Processor, 12GB Memory, 512GB SSD, Backlit Keyboard, HDMI, AMD Radeon Vega 10, Windows 10 S, Abyss Blue, W\/ IFT Accessories","id":"7","category":"laptop","brand":"Lenovo"},{"quantity":1,"price":"898","name":"Dell Inspiron 15 5502","description":"Dell Inspiron 15 5502 Thin & Light Laptop, 15.6 inch FHD - Intel Core i7-1165G7, 8GB 3200MHz DDR4 RAM, 512GB SSD, NVIDIA GeForce MX330 2GB GDDR5, Windows 10 Home - Platinum Silver","id":"8","category":"laptop","brand":"Dell"}]}
+12:13:14.966 [main] INFO  com.intuit.karate - [print] {
+  "cart": [
+    {
+      "quantity": 1,
+      "price": "2969",
+      "name": "Apple MacBook Pro 16",
+      "description": "Apple MacBook Pro 16 with Touch Bar, 9th-Gen 8-Core Intel i9 2.4GHz, 32GB RAM, 512GB SSD, AMD Radeon Pro 5300M 4GB, Space Gray, Late 2019",
+      "id": "1",
+      "category": "laptop",
+      "brand": "Apple"
+    },
+    {
+      "quantity": 1,
+      "price": "1580",
+      "name": "Dell XPS 13 (9310)",
+      "description": "Dell XPS 13 (9310), 13.4- inch FHD+ Touch Laptop - Intel Core i7-1185G7, 16GB 4267MHz LPDDR4x RAM, 512GB SSD, Iris Xe Graphics, Windows 10 Pro - Platinum Silver with Black Palmrest",
+      "id": "2",
+      "category": "laptop",
+      "brand": "Dell"
+    },
+    {
+      "quantity": 1,
+      "price": "1079",
+      "name": "Lenovo ThinkPad E15",
+      "description": "OEM Lenovo ThinkPad E15 Gen 2 15.6 FHD Display 1920x1080, Intel Quad Core i5-1135G7, 32GB RAM, 512GB NVMe, W10P, Business Laptop",
+      "id": "3",
+      "category": "laptop",
+      "brand": "Lenovo"
+    },
+    {
+      "quantity": 1,
+      "price": "999",
+      "name": "Apple MacBook Air 13.3",
+      "description": "Apple MacBook Air 13.3 with Retina Display, 1.1GHz Quad-Core Intel Core i5, 8GB Memory, 256GB SSD, Silver (Early 2020)",
+      "id": "4",
+      "category": "laptop",
+      "brand": "Apple"
+    },
+    {
+      "quantity": 1,
+      "price": "2990",
+      "name": "ASUS ZenBook Pro Duo UX581",
+      "description": "ASUS ZenBook Pro Duo UX581 Laptop, 15.6 4K UHD NanoEdge Touch Display, Intel Core i9-10980HK, 32GB RAM, 1TB PCIe SSD, GeForce RTX 2060, ScreenPad Plus, Windows 10 Pro, Celestial Blue, UX581LV-XS94T",
+      "id": "5",
+      "category": "laptop",
+      "brand": "Asus"
+    },
+    {
+      "quantity": 1,
+      "price": "599",
+      "name": "ASUS VivoBook 15",
+      "description": "ASUS VivoBook 15 Thin and Light Laptop- 15.6 Full HD, Intel i5-1035G1 CPU, 8GB RAM, 512GB SSD, Backlit KeyBoard, Fingerprint, Windows 10- F512JA-AS54, Slate Gray",
+      "id": "6",
+      "category": "laptop",
+      "brand": "Asus"
+    },
+    {
+      "quantity": 1,
+      "price": "729",
+      "name": "Lenovo IdeaPad S340 15.6",
+      "description": "2021 Lenovo IdeaPad S340 15.6 FHD Touchscreen Laptop, AMD Ryzen 7 3700U Processor, 12GB Memory, 512GB SSD, Backlit Keyboard, HDMI, AMD Radeon Vega 10, Windows 10 S, Abyss Blue, W/ IFT Accessories",
+      "id": "7",
+      "category": "laptop",
+      "brand": "Lenovo"
+    },
+    {
+      "quantity": 1,
+      "price": "898",
+      "name": "Dell Inspiron 15 5502",
+      "description": "Dell Inspiron 15 5502 Thin & Light Laptop, 15.6 inch FHD - Intel Core i7-1165G7, 8GB 3200MHz DDR4 RAM, 512GB SSD, NVIDIA GeForce MX330 2GB GDDR5, Windows 10 Home - Platinum Silver",
+      "id": "8",
+      "category": "laptop",
+      "brand": "Dell"
+    }
+  ]
+}
+ 
+12:13:14.972 [main] INFO  com.intuit.karate - karate.env system property was: null 
+12:13:14.974 [main] DEBUG com.intuit.karate - request:
+2 > GET http://api.fakeshop-api.com/carts/getCart
+2 > Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyRW1haWwiOiJ3YWxseTc3N0B3YWxseS5jb20iLCJpYXQiOjE2MjU4MjU1OTQsImV4cCI6MTYyNTk5ODM5NH0.gjLqEVGentAj904lpSuApYlc4gCoWbCeNyPlFXSvLS8
+2 > Host: api.fakeshop-api.com
+2 > Connection: Keep-Alive
+2 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_241)
+2 > Accept-Encoding: gzip,deflate
+
+
+12:13:15.234 [main] DEBUG com.intuit.karate - response time in milliseconds: 260
+2 < 201
+2 < Server: Cowboy
+2 < Connection: keep-alive
+2 < X-Powered-By: Express
+2 < Access-Control-Allow-Origin: *
+2 < Content-Type: application/json; charset=utf-8
+2 < Content-Length: 2281
+2 < Etag: W/"8e9-TrC0g9GHAoQduBoM5Ho/NNF/NDU"
+2 < Date: Fri, 09 Jul 2021 10:13:15 GMT
+2 < Via: 1.1 vegur
+{"cart":[{"quantity":1,"price":"2969","name":"Apple MacBook Pro 16","description":"Apple MacBook Pro 16 with Touch Bar, 9th-Gen 8-Core Intel i9 2.4GHz, 32GB RAM, 512GB SSD, AMD Radeon Pro 5300M 4GB, Space Gray, Late 2019","id":"1","category":"laptop","brand":"Apple"},{"quantity":1,"price":"1580","name":"Dell XPS 13 (9310)","description":"Dell XPS 13 (9310), 13.4- inch FHD+ Touch Laptop - Intel Core i7-1185G7, 16GB 4267MHz LPDDR4x RAM, 512GB SSD, Iris Xe Graphics, Windows 10 Pro - Platinum Silver with Black Palmrest","id":"2","category":"laptop","brand":"Dell"},{"quantity":1,"price":"1079","name":"Lenovo ThinkPad E15","description":"OEM Lenovo ThinkPad E15 Gen 2 15.6 FHD Display 1920x1080, Intel Quad Core i5-1135G7, 32GB RAM, 512GB NVMe, W10P, Business Laptop","id":"3","category":"laptop","brand":"Lenovo"},{"quantity":1,"price":"999","name":"Apple MacBook Air 13.3","description":"Apple MacBook Air 13.3 with Retina Display, 1.1GHz Quad-Core Intel Core i5, 8GB Memory, 256GB SSD, Silver (Early 2020)","id":"4","category":"laptop","brand":"Apple"},{"quantity":1,"price":"2990","name":"ASUS ZenBook Pro Duo UX581","description":"ASUS ZenBook Pro Duo UX581 Laptop, 15.6 4K UHD NanoEdge Touch Display, Intel Core i9-10980HK, 32GB RAM, 1TB PCIe SSD, GeForce RTX 2060, ScreenPad Plus, Windows 10 Pro, Celestial Blue, UX581LV-XS94T","id":"5","category":"laptop","brand":"Asus"},{"quantity":1,"price":"599","name":"ASUS VivoBook 15","description":"ASUS VivoBook 15 Thin and Light Laptop- 15.6 Full HD, Intel i5-1035G1 CPU, 8GB RAM, 512GB SSD, Backlit KeyBoard, Fingerprint, Windows 10- F512JA-AS54, Slate Gray","id":"6","category":"laptop","brand":"Asus"},{"quantity":1,"price":"729","name":"Lenovo IdeaPad S340 15.6","description":"2021 Lenovo IdeaPad S340 15.6 FHD Touchscreen Laptop, AMD Ryzen 7 3700U Processor, 12GB Memory, 512GB SSD, Backlit Keyboard, HDMI, AMD Radeon Vega 10, Windows 10 S, Abyss Blue, W\/ IFT Accessories","id":"7","category":"laptop","brand":"Lenovo"},{"quantity":1,"price":"898","name":"Dell Inspiron 15 5502","description":"Dell Inspiron 15 5502 Thin & Light Laptop, 15.6 inch FHD - Intel Core i7-1165G7, 8GB 3200MHz DDR4 RAM, 512GB SSD, NVIDIA GeForce MX330 2GB GDDR5, Windows 10 Home - Platinum Silver","id":"8","category":"laptop","brand":"Dell"}]}
+12:13:15.239 [main] INFO  com.intuit.karate - [print] {
+  "cart": [
+    {
+      "quantity": 1,
+      "price": "2969",
+      "name": "Apple MacBook Pro 16",
+      "description": "Apple MacBook Pro 16 with Touch Bar, 9th-Gen 8-Core Intel i9 2.4GHz, 32GB RAM, 512GB SSD, AMD Radeon Pro 5300M 4GB, Space Gray, Late 2019",
+      "id": "1",
+      "category": "laptop",
+      "brand": "Apple"
+    },
+    {
+      "quantity": 1,
+      "price": "1580",
+      "name": "Dell XPS 13 (9310)",
+      "description": "Dell XPS 13 (9310), 13.4- inch FHD+ Touch Laptop - Intel Core i7-1185G7, 16GB 4267MHz LPDDR4x RAM, 512GB SSD, Iris Xe Graphics, Windows 10 Pro - Platinum Silver with Black Palmrest",
+      "id": "2",
+      "category": "laptop",
+      "brand": "Dell"
+    },
+    {
+      "quantity": 1,
+      "price": "1079",
+      "name": "Lenovo ThinkPad E15",
+      "description": "OEM Lenovo ThinkPad E15 Gen 2 15.6 FHD Display 1920x1080, Intel Quad Core i5-1135G7, 32GB RAM, 512GB NVMe, W10P, Business Laptop",
+      "id": "3",
+      "category": "laptop",
+      "brand": "Lenovo"
+    },
+    {
+      "quantity": 1,
+      "price": "999",
+      "name": "Apple MacBook Air 13.3",
+      "description": "Apple MacBook Air 13.3 with Retina Display, 1.1GHz Quad-Core Intel Core i5, 8GB Memory, 256GB SSD, Silver (Early 2020)",
+      "id": "4",
+      "category": "laptop",
+      "brand": "Apple"
+    },
+    {
+      "quantity": 1,
+      "price": "2990",
+      "name": "ASUS ZenBook Pro Duo UX581",
+      "description": "ASUS ZenBook Pro Duo UX581 Laptop, 15.6 4K UHD NanoEdge Touch Display, Intel Core i9-10980HK, 32GB RAM, 1TB PCIe SSD, GeForce RTX 2060, ScreenPad Plus, Windows 10 Pro, Celestial Blue, UX581LV-XS94T",
+      "id": "5",
+      "category": "laptop",
+      "brand": "Asus"
+    },
+    {
+      "quantity": 1,
+      "price": "599",
+      "name": "ASUS VivoBook 15",
+      "description": "ASUS VivoBook 15 Thin and Light Laptop- 15.6 Full HD, Intel i5-1035G1 CPU, 8GB RAM, 512GB SSD, Backlit KeyBoard, Fingerprint, Windows 10- F512JA-AS54, Slate Gray",
+      "id": "6",
+      "category": "laptop",
+      "brand": "Asus"
+    },
+    {
+      "quantity": 1,
+      "price": "729",
+      "name": "Lenovo IdeaPad S340 15.6",
+      "description": "2021 Lenovo IdeaPad S340 15.6 FHD Touchscreen Laptop, AMD Ryzen 7 3700U Processor, 12GB Memory, 512GB SSD, Backlit Keyboard, HDMI, AMD Radeon Vega 10, Windows 10 S, Abyss Blue, W/ IFT Accessories",
+      "id": "7",
+      "category": "laptop",
+      "brand": "Lenovo"
+    },
+    {
+      "quantity": 1,
+      "price": "898",
+      "name": "Dell Inspiron 15 5502",
+      "description": "Dell Inspiron 15 5502 Thin & Light Laptop, 15.6 inch FHD - Intel Core i7-1165G7, 8GB 3200MHz DDR4 RAM, 512GB SSD, NVIDIA GeForce MX330 2GB GDDR5, Windows 10 Home - Platinum Silver",
+      "id": "8",
+      "category": "laptop",
+      "brand": "Dell"
+    }
+  ]
+}
+ 
+12:13:15.261 [main] INFO  com.intuit.karate - karate.env system property was: null 
+12:13:15.264 [main] DEBUG com.intuit.karate - request:
+3 > GET http://api.fakeshop-api.com/carts/getCart
+3 > Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyRW1haWwiOiJ3YWxseTc3N0B3YWxseS5jb20iLCJpYXQiOjE2MjU4MjU1OTQsImV4cCI6MTYyNTk5ODM5NH0.gjLqEVGentAj904lpSuApYlc4gCoWbCeNyPlFXSvLS8
+3 > Host: api.fakeshop-api.com
+3 > Connection: Keep-Alive
+3 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_241)
+3 > Accept-Encoding: gzip,deflate
+
+
+12:13:15.530 [main] DEBUG com.intuit.karate - response time in milliseconds: 266
+3 < 201
+3 < Server: Cowboy
+3 < Connection: keep-alive
+3 < X-Powered-By: Express
+3 < Access-Control-Allow-Origin: *
+3 < Content-Type: application/json; charset=utf-8
+3 < Content-Length: 2281
+3 < Etag: W/"8e9-TrC0g9GHAoQduBoM5Ho/NNF/NDU"
+3 < Date: Fri, 09 Jul 2021 10:13:15 GMT
+3 < Via: 1.1 vegur
+{"cart":[{"quantity":1,"price":"2969","name":"Apple MacBook Pro 16","description":"Apple MacBook Pro 16 with Touch Bar, 9th-Gen 8-Core Intel i9 2.4GHz, 32GB RAM, 512GB SSD, AMD Radeon Pro 5300M 4GB, Space Gray, Late 2019","id":"1","category":"laptop","brand":"Apple"},{"quantity":1,"price":"1580","name":"Dell XPS 13 (9310)","description":"Dell XPS 13 (9310), 13.4- inch FHD+ Touch Laptop - Intel Core i7-1185G7, 16GB 4267MHz LPDDR4x RAM, 512GB SSD, Iris Xe Graphics, Windows 10 Pro - Platinum Silver with Black Palmrest","id":"2","category":"laptop","brand":"Dell"},{"quantity":1,"price":"1079","name":"Lenovo ThinkPad E15","description":"OEM Lenovo ThinkPad E15 Gen 2 15.6 FHD Display 1920x1080, Intel Quad Core i5-1135G7, 32GB RAM, 512GB NVMe, W10P, Business Laptop","id":"3","category":"laptop","brand":"Lenovo"},{"quantity":1,"price":"999","name":"Apple MacBook Air 13.3","description":"Apple MacBook Air 13.3 with Retina Display, 1.1GHz Quad-Core Intel Core i5, 8GB Memory, 256GB SSD, Silver (Early 2020)","id":"4","category":"laptop","brand":"Apple"},{"quantity":1,"price":"2990","name":"ASUS ZenBook Pro Duo UX581","description":"ASUS ZenBook Pro Duo UX581 Laptop, 15.6 4K UHD NanoEdge Touch Display, Intel Core i9-10980HK, 32GB RAM, 1TB PCIe SSD, GeForce RTX 2060, ScreenPad Plus, Windows 10 Pro, Celestial Blue, UX581LV-XS94T","id":"5","category":"laptop","brand":"Asus"},{"quantity":1,"price":"599","name":"ASUS VivoBook 15","description":"ASUS VivoBook 15 Thin and Light Laptop- 15.6 Full HD, Intel i5-1035G1 CPU, 8GB RAM, 512GB SSD, Backlit KeyBoard, Fingerprint, Windows 10- F512JA-AS54, Slate Gray","id":"6","category":"laptop","brand":"Asus"},{"quantity":1,"price":"729","name":"Lenovo IdeaPad S340 15.6","description":"2021 Lenovo IdeaPad S340 15.6 FHD Touchscreen Laptop, AMD Ryzen 7 3700U Processor, 12GB Memory, 512GB SSD, Backlit Keyboard, HDMI, AMD Radeon Vega 10, Windows 10 S, Abyss Blue, W\/ IFT Accessories","id":"7","category":"laptop","brand":"Lenovo"},{"quantity":1,"price":"898","name":"Dell Inspiron 15 5502","description":"Dell Inspiron 15 5502 Thin & Light Laptop, 15.6 inch FHD - Intel Core i7-1165G7, 8GB 3200MHz DDR4 RAM, 512GB SSD, NVIDIA GeForce MX330 2GB GDDR5, Windows 10 Home - Platinum Silver","id":"8","category":"laptop","brand":"Dell"}]}
+12:13:15.532 [main] INFO  com.intuit.karate - [print] {
+  "cart": [
+    {
+      "quantity": 1,
+      "price": "2969",
+      "name": "Apple MacBook Pro 16",
+      "description": "Apple MacBook Pro 16 with Touch Bar, 9th-Gen 8-Core Intel i9 2.4GHz, 32GB RAM, 512GB SSD, AMD Radeon Pro 5300M 4GB, Space Gray, Late 2019",
+      "id": "1",
+      "category": "laptop",
+      "brand": "Apple"
+    },
+    {
+      "quantity": 1,
+      "price": "1580",
+      "name": "Dell XPS 13 (9310)",
+      "description": "Dell XPS 13 (9310), 13.4- inch FHD+ Touch Laptop - Intel Core i7-1185G7, 16GB 4267MHz LPDDR4x RAM, 512GB SSD, Iris Xe Graphics, Windows 10 Pro - Platinum Silver with Black Palmrest",
+      "id": "2",
+      "category": "laptop",
+      "brand": "Dell"
+    },
+    {
+      "quantity": 1,
+      "price": "1079",
+      "name": "Lenovo ThinkPad E15",
+      "description": "OEM Lenovo ThinkPad E15 Gen 2 15.6 FHD Display 1920x1080, Intel Quad Core i5-1135G7, 32GB RAM, 512GB NVMe, W10P, Business Laptop",
+      "id": "3",
+      "category": "laptop",
+      "brand": "Lenovo"
+    },
+    {
+      "quantity": 1,
+      "price": "999",
+      "name": "Apple MacBook Air 13.3",
+      "description": "Apple MacBook Air 13.3 with Retina Display, 1.1GHz Quad-Core Intel Core i5, 8GB Memory, 256GB SSD, Silver (Early 2020)",
+      "id": "4",
+      "category": "laptop",
+      "brand": "Apple"
+    },
+    {
+      "quantity": 1,
+      "price": "2990",
+      "name": "ASUS ZenBook Pro Duo UX581",
+      "description": "ASUS ZenBook Pro Duo UX581 Laptop, 15.6 4K UHD NanoEdge Touch Display, Intel Core i9-10980HK, 32GB RAM, 1TB PCIe SSD, GeForce RTX 2060, ScreenPad Plus, Windows 10 Pro, Celestial Blue, UX581LV-XS94T",
+      "id": "5",
+      "category": "laptop",
+      "brand": "Asus"
+    },
+    {
+      "quantity": 1,
+      "price": "599",
+      "name": "ASUS VivoBook 15",
+      "description": "ASUS VivoBook 15 Thin and Light Laptop- 15.6 Full HD, Intel i5-1035G1 CPU, 8GB RAM, 512GB SSD, Backlit KeyBoard, Fingerprint, Windows 10- F512JA-AS54, Slate Gray",
+      "id": "6",
+      "category": "laptop",
+      "brand": "Asus"
+    },
+    {
+      "quantity": 1,
+      "price": "729",
+      "name": "Lenovo IdeaPad S340 15.6",
+      "description": "2021 Lenovo IdeaPad S340 15.6 FHD Touchscreen Laptop, AMD Ryzen 7 3700U Processor, 12GB Memory, 512GB SSD, Backlit Keyboard, HDMI, AMD Radeon Vega 10, Windows 10 S, Abyss Blue, W/ IFT Accessories",
+      "id": "7",
+      "category": "laptop",
+      "brand": "Lenovo"
+    },
+    {
+      "quantity": 1,
+      "price": "898",
+      "name": "Dell Inspiron 15 5502",
+      "description": "Dell Inspiron 15 5502 Thin & Light Laptop, 15.6 inch FHD - Intel Core i7-1165G7, 8GB 3200MHz DDR4 RAM, 512GB SSD, NVIDIA GeForce MX330 2GB GDDR5, Windows 10 Home - Platinum Silver",
+      "id": "8",
+      "category": "laptop",
+      "brand": "Dell"
+    }
+  ]
+}
+ 
+12:13:15.538 [main] INFO  com.intuit.karate - karate.env system property was: null 
+12:13:15.539 [main] DEBUG com.intuit.karate - request:
+4 > GET http://api.fakeshop-api.com/carts/getCart
+4 > Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyRW1haWwiOiJ3YWxseTc3N0B3YWxseS5jb20iLCJpYXQiOjE2MjU4MjU1OTQsImV4cCI6MTYyNTk5ODM5NH0.gjLqEVGentAj904lpSuApYlc4gCoWbCeNyPlFXSvLS8
+4 > Host: api.fakeshop-api.com
+4 > Connection: Keep-Alive
+4 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_241)
+4 > Accept-Encoding: gzip,deflate
+
+
+12:13:15.791 [main] DEBUG com.intuit.karate - response time in milliseconds: 251
+4 < 201
+4 < Server: Cowboy
+4 < Connection: keep-alive
+4 < X-Powered-By: Express
+4 < Access-Control-Allow-Origin: *
+4 < Content-Type: application/json; charset=utf-8
+4 < Content-Length: 2281
+4 < Etag: W/"8e9-TrC0g9GHAoQduBoM5Ho/NNF/NDU"
+4 < Date: Fri, 09 Jul 2021 10:13:15 GMT
+4 < Via: 1.1 vegur
+{"cart":[{"quantity":1,"price":"2969","name":"Apple MacBook Pro 16","description":"Apple MacBook Pro 16 with Touch Bar, 9th-Gen 8-Core Intel i9 2.4GHz, 32GB RAM, 512GB SSD, AMD Radeon Pro 5300M 4GB, Space Gray, Late 2019","id":"1","category":"laptop","brand":"Apple"},{"quantity":1,"price":"1580","name":"Dell XPS 13 (9310)","description":"Dell XPS 13 (9310), 13.4- inch FHD+ Touch Laptop - Intel Core i7-1185G7, 16GB 4267MHz LPDDR4x RAM, 512GB SSD, Iris Xe Graphics, Windows 10 Pro - Platinum Silver with Black Palmrest","id":"2","category":"laptop","brand":"Dell"},{"quantity":1,"price":"1079","name":"Lenovo ThinkPad E15","description":"OEM Lenovo ThinkPad E15 Gen 2 15.6 FHD Display 1920x1080, Intel Quad Core i5-1135G7, 32GB RAM, 512GB NVMe, W10P, Business Laptop","id":"3","category":"laptop","brand":"Lenovo"},{"quantity":1,"price":"999","name":"Apple MacBook Air 13.3","description":"Apple MacBook Air 13.3 with Retina Display, 1.1GHz Quad-Core Intel Core i5, 8GB Memory, 256GB SSD, Silver (Early 2020)","id":"4","category":"laptop","brand":"Apple"},{"quantity":1,"price":"2990","name":"ASUS ZenBook Pro Duo UX581","description":"ASUS ZenBook Pro Duo UX581 Laptop, 15.6 4K UHD NanoEdge Touch Display, Intel Core i9-10980HK, 32GB RAM, 1TB PCIe SSD, GeForce RTX 2060, ScreenPad Plus, Windows 10 Pro, Celestial Blue, UX581LV-XS94T","id":"5","category":"laptop","brand":"Asus"},{"quantity":1,"price":"599","name":"ASUS VivoBook 15","description":"ASUS VivoBook 15 Thin and Light Laptop- 15.6 Full HD, Intel i5-1035G1 CPU, 8GB RAM, 512GB SSD, Backlit KeyBoard, Fingerprint, Windows 10- F512JA-AS54, Slate Gray","id":"6","category":"laptop","brand":"Asus"},{"quantity":1,"price":"729","name":"Lenovo IdeaPad S340 15.6","description":"2021 Lenovo IdeaPad S340 15.6 FHD Touchscreen Laptop, AMD Ryzen 7 3700U Processor, 12GB Memory, 512GB SSD, Backlit Keyboard, HDMI, AMD Radeon Vega 10, Windows 10 S, Abyss Blue, W\/ IFT Accessories","id":"7","category":"laptop","brand":"Lenovo"},{"quantity":1,"price":"898","name":"Dell Inspiron 15 5502","description":"Dell Inspiron 15 5502 Thin & Light Laptop, 15.6 inch FHD - Intel Core i7-1165G7, 8GB 3200MHz DDR4 RAM, 512GB SSD, NVIDIA GeForce MX330 2GB GDDR5, Windows 10 Home - Platinum Silver","id":"8","category":"laptop","brand":"Dell"}]}
+12:13:15.795 [main] INFO  com.intuit.karate - [print] {
+  "cart": [
+    {
+      "quantity": 1,
+      "price": "2969",
+      "name": "Apple MacBook Pro 16",
+      "description": "Apple MacBook Pro 16 with Touch Bar, 9th-Gen 8-Core Intel i9 2.4GHz, 32GB RAM, 512GB SSD, AMD Radeon Pro 5300M 4GB, Space Gray, Late 2019",
+      "id": "1",
+      "category": "laptop",
+      "brand": "Apple"
+    },
+    {
+      "quantity": 1,
+      "price": "1580",
+      "name": "Dell XPS 13 (9310)",
+      "description": "Dell XPS 13 (9310), 13.4- inch FHD+ Touch Laptop - Intel Core i7-1185G7, 16GB 4267MHz LPDDR4x RAM, 512GB SSD, Iris Xe Graphics, Windows 10 Pro - Platinum Silver with Black Palmrest",
+      "id": "2",
+      "category": "laptop",
+      "brand": "Dell"
+    },
+    {
+      "quantity": 1,
+      "price": "1079",
+      "name": "Lenovo ThinkPad E15",
+      "description": "OEM Lenovo ThinkPad E15 Gen 2 15.6 FHD Display 1920x1080, Intel Quad Core i5-1135G7, 32GB RAM, 512GB NVMe, W10P, Business Laptop",
+      "id": "3",
+      "category": "laptop",
+      "brand": "Lenovo"
+    },
+    {
+      "quantity": 1,
+      "price": "999",
+      "name": "Apple MacBook Air 13.3",
+      "description": "Apple MacBook Air 13.3 with Retina Display, 1.1GHz Quad-Core Intel Core i5, 8GB Memory, 256GB SSD, Silver (Early 2020)",
+      "id": "4",
+      "category": "laptop",
+      "brand": "Apple"
+    },
+    {
+      "quantity": 1,
+      "price": "2990",
+      "name": "ASUS ZenBook Pro Duo UX581",
+      "description": "ASUS ZenBook Pro Duo UX581 Laptop, 15.6 4K UHD NanoEdge Touch Display, Intel Core i9-10980HK, 32GB RAM, 1TB PCIe SSD, GeForce RTX 2060, ScreenPad Plus, Windows 10 Pro, Celestial Blue, UX581LV-XS94T",
+      "id": "5",
+      "category": "laptop",
+      "brand": "Asus"
+    },
+    {
+      "quantity": 1,
+      "price": "599",
+      "name": "ASUS VivoBook 15",
+      "description": "ASUS VivoBook 15 Thin and Light Laptop- 15.6 Full HD, Intel i5-1035G1 CPU, 8GB RAM, 512GB SSD, Backlit KeyBoard, Fingerprint, Windows 10- F512JA-AS54, Slate Gray",
+      "id": "6",
+      "category": "laptop",
+      "brand": "Asus"
+    },
+    {
+      "quantity": 1,
+      "price": "729",
+      "name": "Lenovo IdeaPad S340 15.6",
+      "description": "2021 Lenovo IdeaPad S340 15.6 FHD Touchscreen Laptop, AMD Ryzen 7 3700U Processor, 12GB Memory, 512GB SSD, Backlit Keyboard, HDMI, AMD Radeon Vega 10, Windows 10 S, Abyss Blue, W/ IFT Accessories",
+      "id": "7",
+      "category": "laptop",
+      "brand": "Lenovo"
+    },
+    {
+      "quantity": 1,
+      "price": "898",
+      "name": "Dell Inspiron 15 5502",
+      "description": "Dell Inspiron 15 5502 Thin & Light Laptop, 15.6 inch FHD - Intel Core i7-1165G7, 8GB 3200MHz DDR4 RAM, 512GB SSD, NVIDIA GeForce MX330 2GB GDDR5, Windows 10 Home - Platinum Silver",
+      "id": "8",
+      "category": "laptop",
+      "brand": "Dell"
+    }
+  ]
+}
+ 
+12:13:15.830 [main] INFO  com.intuit.karate - karate.env system property was: null 
+12:13:15.833 [main] DEBUG com.intuit.karate - request:
+5 > GET http://api.fakeshop-api.com/carts/getCart
+5 > Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyRW1haWwiOiJ3YWxseTc3N0B3YWxseS5jb20iLCJpYXQiOjE2MjU4MjU1OTQsImV4cCI6MTYyNTk5ODM5NH0.gjLqEVGentAj904lpSuApYlc4gCoWbCeNyPlFXSvLS8
+5 > Host: api.fakeshop-api.com
+5 > Connection: Keep-Alive
+5 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_241)
+5 > Accept-Encoding: gzip,deflate
+
+
+12:13:16.089 [main] DEBUG com.intuit.karate - response time in milliseconds: 255
+5 < 201
+5 < Server: Cowboy
+5 < Connection: keep-alive
+5 < X-Powered-By: Express
+5 < Access-Control-Allow-Origin: *
+5 < Content-Type: application/json; charset=utf-8
+5 < Content-Length: 2281
+5 < Etag: W/"8e9-TrC0g9GHAoQduBoM5Ho/NNF/NDU"
+5 < Date: Fri, 09 Jul 2021 10:13:16 GMT
+5 < Via: 1.1 vegur
+{"cart":[{"quantity":1,"price":"2969","name":"Apple MacBook Pro 16","description":"Apple MacBook Pro 16 with Touch Bar, 9th-Gen 8-Core Intel i9 2.4GHz, 32GB RAM, 512GB SSD, AMD Radeon Pro 5300M 4GB, Space Gray, Late 2019","id":"1","category":"laptop","brand":"Apple"},{"quantity":1,"price":"1580","name":"Dell XPS 13 (9310)","description":"Dell XPS 13 (9310), 13.4- inch FHD+ Touch Laptop - Intel Core i7-1185G7, 16GB 4267MHz LPDDR4x RAM, 512GB SSD, Iris Xe Graphics, Windows 10 Pro - Platinum Silver with Black Palmrest","id":"2","category":"laptop","brand":"Dell"},{"quantity":1,"price":"1079","name":"Lenovo ThinkPad E15","description":"OEM Lenovo ThinkPad E15 Gen 2 15.6 FHD Display 1920x1080, Intel Quad Core i5-1135G7, 32GB RAM, 512GB NVMe, W10P, Business Laptop","id":"3","category":"laptop","brand":"Lenovo"},{"quantity":1,"price":"999","name":"Apple MacBook Air 13.3","description":"Apple MacBook Air 13.3 with Retina Display, 1.1GHz Quad-Core Intel Core i5, 8GB Memory, 256GB SSD, Silver (Early 2020)","id":"4","category":"laptop","brand":"Apple"},{"quantity":1,"price":"2990","name":"ASUS ZenBook Pro Duo UX581","description":"ASUS ZenBook Pro Duo UX581 Laptop, 15.6 4K UHD NanoEdge Touch Display, Intel Core i9-10980HK, 32GB RAM, 1TB PCIe SSD, GeForce RTX 2060, ScreenPad Plus, Windows 10 Pro, Celestial Blue, UX581LV-XS94T","id":"5","category":"laptop","brand":"Asus"},{"quantity":1,"price":"599","name":"ASUS VivoBook 15","description":"ASUS VivoBook 15 Thin and Light Laptop- 15.6 Full HD, Intel i5-1035G1 CPU, 8GB RAM, 512GB SSD, Backlit KeyBoard, Fingerprint, Windows 10- F512JA-AS54, Slate Gray","id":"6","category":"laptop","brand":"Asus"},{"quantity":1,"price":"729","name":"Lenovo IdeaPad S340 15.6","description":"2021 Lenovo IdeaPad S340 15.6 FHD Touchscreen Laptop, AMD Ryzen 7 3700U Processor, 12GB Memory, 512GB SSD, Backlit Keyboard, HDMI, AMD Radeon Vega 10, Windows 10 S, Abyss Blue, W\/ IFT Accessories","id":"7","category":"laptop","brand":"Lenovo"},{"quantity":1,"price":"898","name":"Dell Inspiron 15 5502","description":"Dell Inspiron 15 5502 Thin & Light Laptop, 15.6 inch FHD - Intel Core i7-1165G7, 8GB 3200MHz DDR4 RAM, 512GB SSD, NVIDIA GeForce MX330 2GB GDDR5, Windows 10 Home - Platinum Silver","id":"8","category":"laptop","brand":"Dell"}]}
+12:13:16.092 [main] INFO  com.intuit.karate - [print] {
+  "cart": [
+    {
+      "quantity": 1,
+      "price": "2969",
+      "name": "Apple MacBook Pro 16",
+      "description": "Apple MacBook Pro 16 with Touch Bar, 9th-Gen 8-Core Intel i9 2.4GHz, 32GB RAM, 512GB SSD, AMD Radeon Pro 5300M 4GB, Space Gray, Late 2019",
+      "id": "1",
+      "category": "laptop",
+      "brand": "Apple"
+    },
+    {
+      "quantity": 1,
+      "price": "1580",
+      "name": "Dell XPS 13 (9310)",
+      "description": "Dell XPS 13 (9310), 13.4- inch FHD+ Touch Laptop - Intel Core i7-1185G7, 16GB 4267MHz LPDDR4x RAM, 512GB SSD, Iris Xe Graphics, Windows 10 Pro - Platinum Silver with Black Palmrest",
+      "id": "2",
+      "category": "laptop",
+      "brand": "Dell"
+    },
+    {
+      "quantity": 1,
+      "price": "1079",
+      "name": "Lenovo ThinkPad E15",
+      "description": "OEM Lenovo ThinkPad E15 Gen 2 15.6 FHD Display 1920x1080, Intel Quad Core i5-1135G7, 32GB RAM, 512GB NVMe, W10P, Business Laptop",
+      "id": "3",
+      "category": "laptop",
+      "brand": "Lenovo"
+    },
+    {
+      "quantity": 1,
+      "price": "999",
+      "name": "Apple MacBook Air 13.3",
+      "description": "Apple MacBook Air 13.3 with Retina Display, 1.1GHz Quad-Core Intel Core i5, 8GB Memory, 256GB SSD, Silver (Early 2020)",
+      "id": "4",
+      "category": "laptop",
+      "brand": "Apple"
+    },
+    {
+      "quantity": 1,
+      "price": "2990",
+      "name": "ASUS ZenBook Pro Duo UX581",
+      "description": "ASUS ZenBook Pro Duo UX581 Laptop, 15.6 4K UHD NanoEdge Touch Display, Intel Core i9-10980HK, 32GB RAM, 1TB PCIe SSD, GeForce RTX 2060, ScreenPad Plus, Windows 10 Pro, Celestial Blue, UX581LV-XS94T",
+      "id": "5",
+      "category": "laptop",
+      "brand": "Asus"
+    },
+    {
+      "quantity": 1,
+      "price": "599",
+      "name": "ASUS VivoBook 15",
+      "description": "ASUS VivoBook 15 Thin and Light Laptop- 15.6 Full HD, Intel i5-1035G1 CPU, 8GB RAM, 512GB SSD, Backlit KeyBoard, Fingerprint, Windows 10- F512JA-AS54, Slate Gray",
+      "id": "6",
+      "category": "laptop",
+      "brand": "Asus"
+    },
+    {
+      "quantity": 1,
+      "price": "729",
+      "name": "Lenovo IdeaPad S340 15.6",
+      "description": "2021 Lenovo IdeaPad S340 15.6 FHD Touchscreen Laptop, AMD Ryzen 7 3700U Processor, 12GB Memory, 512GB SSD, Backlit Keyboard, HDMI, AMD Radeon Vega 10, Windows 10 S, Abyss Blue, W/ IFT Accessories",
+      "id": "7",
+      "category": "laptop",
+      "brand": "Lenovo"
+    },
+    {
+      "quantity": 1,
+      "price": "898",
+      "name": "Dell Inspiron 15 5502",
+      "description": "Dell Inspiron 15 5502 Thin & Light Laptop, 15.6 inch FHD - Intel Core i7-1165G7, 8GB 3200MHz DDR4 RAM, 512GB SSD, NVIDIA GeForce MX330 2GB GDDR5, Windows 10 Home - Platinum Silver",
+      "id": "8",
+      "category": "laptop",
+      "brand": "Dell"
+    }
+  ]
+}
+ 
+12:13:16.102 [main] INFO  com.intuit.karate - karate.env system property was: null 
+12:13:16.104 [main] DEBUG com.intuit.karate - request:
+6 > GET http://api.fakeshop-api.com/carts/getCart
+6 > Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyRW1haWwiOiJ3YWxseTc3N0B3YWxseS5jb20iLCJpYXQiOjE2MjU4MjU1OTQsImV4cCI6MTYyNTk5ODM5NH0.gjLqEVGentAj904lpSuApYlc4gCoWbCeNyPlFXSvLS8
+6 > Host: api.fakeshop-api.com
+6 > Connection: Keep-Alive
+6 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_241)
+6 > Accept-Encoding: gzip,deflate
+
+
+12:13:16.358 [main] DEBUG com.intuit.karate - response time in milliseconds: 253
+6 < 201
+6 < Server: Cowboy
+6 < Connection: keep-alive
+6 < X-Powered-By: Express
+6 < Access-Control-Allow-Origin: *
+6 < Content-Type: application/json; charset=utf-8
+6 < Content-Length: 2281
+6 < Etag: W/"8e9-TrC0g9GHAoQduBoM5Ho/NNF/NDU"
+6 < Date: Fri, 09 Jul 2021 10:13:16 GMT
+6 < Via: 1.1 vegur
+{"cart":[{"quantity":1,"price":"2969","name":"Apple MacBook Pro 16","description":"Apple MacBook Pro 16 with Touch Bar, 9th-Gen 8-Core Intel i9 2.4GHz, 32GB RAM, 512GB SSD, AMD Radeon Pro 5300M 4GB, Space Gray, Late 2019","id":"1","category":"laptop","brand":"Apple"},{"quantity":1,"price":"1580","name":"Dell XPS 13 (9310)","description":"Dell XPS 13 (9310), 13.4- inch FHD+ Touch Laptop - Intel Core i7-1185G7, 16GB 4267MHz LPDDR4x RAM, 512GB SSD, Iris Xe Graphics, Windows 10 Pro - Platinum Silver with Black Palmrest","id":"2","category":"laptop","brand":"Dell"},{"quantity":1,"price":"1079","name":"Lenovo ThinkPad E15","description":"OEM Lenovo ThinkPad E15 Gen 2 15.6 FHD Display 1920x1080, Intel Quad Core i5-1135G7, 32GB RAM, 512GB NVMe, W10P, Business Laptop","id":"3","category":"laptop","brand":"Lenovo"},{"quantity":1,"price":"999","name":"Apple MacBook Air 13.3","description":"Apple MacBook Air 13.3 with Retina Display, 1.1GHz Quad-Core Intel Core i5, 8GB Memory, 256GB SSD, Silver (Early 2020)","id":"4","category":"laptop","brand":"Apple"},{"quantity":1,"price":"2990","name":"ASUS ZenBook Pro Duo UX581","description":"ASUS ZenBook Pro Duo UX581 Laptop, 15.6 4K UHD NanoEdge Touch Display, Intel Core i9-10980HK, 32GB RAM, 1TB PCIe SSD, GeForce RTX 2060, ScreenPad Plus, Windows 10 Pro, Celestial Blue, UX581LV-XS94T","id":"5","category":"laptop","brand":"Asus"},{"quantity":1,"price":"599","name":"ASUS VivoBook 15","description":"ASUS VivoBook 15 Thin and Light Laptop- 15.6 Full HD, Intel i5-1035G1 CPU, 8GB RAM, 512GB SSD, Backlit KeyBoard, Fingerprint, Windows 10- F512JA-AS54, Slate Gray","id":"6","category":"laptop","brand":"Asus"},{"quantity":1,"price":"729","name":"Lenovo IdeaPad S340 15.6","description":"2021 Lenovo IdeaPad S340 15.6 FHD Touchscreen Laptop, AMD Ryzen 7 3700U Processor, 12GB Memory, 512GB SSD, Backlit Keyboard, HDMI, AMD Radeon Vega 10, Windows 10 S, Abyss Blue, W\/ IFT Accessories","id":"7","category":"laptop","brand":"Lenovo"},{"quantity":1,"price":"898","name":"Dell Inspiron 15 5502","description":"Dell Inspiron 15 5502 Thin & Light Laptop, 15.6 inch FHD - Intel Core i7-1165G7, 8GB 3200MHz DDR4 RAM, 512GB SSD, NVIDIA GeForce MX330 2GB GDDR5, Windows 10 Home - Platinum Silver","id":"8","category":"laptop","brand":"Dell"}]}
+12:13:16.360 [main] INFO  com.intuit.karate - [print] {
+  "cart": [
+    {
+      "quantity": 1,
+      "price": "2969",
+      "name": "Apple MacBook Pro 16",
+      "description": "Apple MacBook Pro 16 with Touch Bar, 9th-Gen 8-Core Intel i9 2.4GHz, 32GB RAM, 512GB SSD, AMD Radeon Pro 5300M 4GB, Space Gray, Late 2019",
+      "id": "1",
+      "category": "laptop",
+      "brand": "Apple"
+    },
+    {
+      "quantity": 1,
+      "price": "1580",
+      "name": "Dell XPS 13 (9310)",
+      "description": "Dell XPS 13 (9310), 13.4- inch FHD+ Touch Laptop - Intel Core i7-1185G7, 16GB 4267MHz LPDDR4x RAM, 512GB SSD, Iris Xe Graphics, Windows 10 Pro - Platinum Silver with Black Palmrest",
+      "id": "2",
+      "category": "laptop",
+      "brand": "Dell"
+    },
+    {
+      "quantity": 1,
+      "price": "1079",
+      "name": "Lenovo ThinkPad E15",
+      "description": "OEM Lenovo ThinkPad E15 Gen 2 15.6 FHD Display 1920x1080, Intel Quad Core i5-1135G7, 32GB RAM, 512GB NVMe, W10P, Business Laptop",
+      "id": "3",
+      "category": "laptop",
+      "brand": "Lenovo"
+    },
+    {
+      "quantity": 1,
+      "price": "999",
+      "name": "Apple MacBook Air 13.3",
+      "description": "Apple MacBook Air 13.3 with Retina Display, 1.1GHz Quad-Core Intel Core i5, 8GB Memory, 256GB SSD, Silver (Early 2020)",
+      "id": "4",
+      "category": "laptop",
+      "brand": "Apple"
+    },
+    {
+      "quantity": 1,
+      "price": "2990",
+      "name": "ASUS ZenBook Pro Duo UX581",
+      "description": "ASUS ZenBook Pro Duo UX581 Laptop, 15.6 4K UHD NanoEdge Touch Display, Intel Core i9-10980HK, 32GB RAM, 1TB PCIe SSD, GeForce RTX 2060, ScreenPad Plus, Windows 10 Pro, Celestial Blue, UX581LV-XS94T",
+      "id": "5",
+      "category": "laptop",
+      "brand": "Asus"
+    },
+    {
+      "quantity": 1,
+      "price": "599",
+      "name": "ASUS VivoBook 15",
+      "description": "ASUS VivoBook 15 Thin and Light Laptop- 15.6 Full HD, Intel i5-1035G1 CPU, 8GB RAM, 512GB SSD, Backlit KeyBoard, Fingerprint, Windows 10- F512JA-AS54, Slate Gray",
+      "id": "6",
+      "category": "laptop",
+      "brand": "Asus"
+    },
+    {
+      "quantity": 1,
+      "price": "729",
+      "name": "Lenovo IdeaPad S340 15.6",
+      "description": "2021 Lenovo IdeaPad S340 15.6 FHD Touchscreen Laptop, AMD Ryzen 7 3700U Processor, 12GB Memory, 512GB SSD, Backlit Keyboard, HDMI, AMD Radeon Vega 10, Windows 10 S, Abyss Blue, W/ IFT Accessories",
+      "id": "7",
+      "category": "laptop",
+      "brand": "Lenovo"
+    },
+    {
+      "quantity": 1,
+      "price": "898",
+      "name": "Dell Inspiron 15 5502",
+      "description": "Dell Inspiron 15 5502 Thin & Light Laptop, 15.6 inch FHD - Intel Core i7-1165G7, 8GB 3200MHz DDR4 RAM, 512GB SSD, NVIDIA GeForce MX330 2GB GDDR5, Windows 10 Home - Platinum Silver",
+      "id": "8",
+      "category": "laptop",
+      "brand": "Dell"
+    }
+  ]
+}
+ 
+12:13:16.377 [main] INFO  com.intuit.karate - karate.env system property was: null 
+12:13:16.384 [main] DEBUG com.intuit.karate - request:
+7 > GET http://api.fakeshop-api.com/carts/getCart
+7 > Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyRW1haWwiOiJ3YWxseTc3N0B3YWxseS5jb20iLCJpYXQiOjE2MjU4MjU1OTQsImV4cCI6MTYyNTk5ODM5NH0.gjLqEVGentAj904lpSuApYlc4gCoWbCeNyPlFXSvLS8
+7 > Host: api.fakeshop-api.com
+7 > Connection: Keep-Alive
+7 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_241)
+7 > Accept-Encoding: gzip,deflate
+
+
+12:13:16.645 [main] DEBUG com.intuit.karate - response time in milliseconds: 260
+7 < 201
+7 < Server: Cowboy
+7 < Connection: keep-alive
+7 < X-Powered-By: Express
+7 < Access-Control-Allow-Origin: *
+7 < Content-Type: application/json; charset=utf-8
+7 < Content-Length: 2281
+7 < Etag: W/"8e9-TrC0g9GHAoQduBoM5Ho/NNF/NDU"
+7 < Date: Fri, 09 Jul 2021 10:13:16 GMT
+7 < Via: 1.1 vegur
+{"cart":[{"quantity":1,"price":"2969","name":"Apple MacBook Pro 16","description":"Apple MacBook Pro 16 with Touch Bar, 9th-Gen 8-Core Intel i9 2.4GHz, 32GB RAM, 512GB SSD, AMD Radeon Pro 5300M 4GB, Space Gray, Late 2019","id":"1","category":"laptop","brand":"Apple"},{"quantity":1,"price":"1580","name":"Dell XPS 13 (9310)","description":"Dell XPS 13 (9310), 13.4- inch FHD+ Touch Laptop - Intel Core i7-1185G7, 16GB 4267MHz LPDDR4x RAM, 512GB SSD, Iris Xe Graphics, Windows 10 Pro - Platinum Silver with Black Palmrest","id":"2","category":"laptop","brand":"Dell"},{"quantity":1,"price":"1079","name":"Lenovo ThinkPad E15","description":"OEM Lenovo ThinkPad E15 Gen 2 15.6 FHD Display 1920x1080, Intel Quad Core i5-1135G7, 32GB RAM, 512GB NVMe, W10P, Business Laptop","id":"3","category":"laptop","brand":"Lenovo"},{"quantity":1,"price":"999","name":"Apple MacBook Air 13.3","description":"Apple MacBook Air 13.3 with Retina Display, 1.1GHz Quad-Core Intel Core i5, 8GB Memory, 256GB SSD, Silver (Early 2020)","id":"4","category":"laptop","brand":"Apple"},{"quantity":1,"price":"2990","name":"ASUS ZenBook Pro Duo UX581","description":"ASUS ZenBook Pro Duo UX581 Laptop, 15.6 4K UHD NanoEdge Touch Display, Intel Core i9-10980HK, 32GB RAM, 1TB PCIe SSD, GeForce RTX 2060, ScreenPad Plus, Windows 10 Pro, Celestial Blue, UX581LV-XS94T","id":"5","category":"laptop","brand":"Asus"},{"quantity":1,"price":"599","name":"ASUS VivoBook 15","description":"ASUS VivoBook 15 Thin and Light Laptop- 15.6 Full HD, Intel i5-1035G1 CPU, 8GB RAM, 512GB SSD, Backlit KeyBoard, Fingerprint, Windows 10- F512JA-AS54, Slate Gray","id":"6","category":"laptop","brand":"Asus"},{"quantity":1,"price":"729","name":"Lenovo IdeaPad S340 15.6","description":"2021 Lenovo IdeaPad S340 15.6 FHD Touchscreen Laptop, AMD Ryzen 7 3700U Processor, 12GB Memory, 512GB SSD, Backlit Keyboard, HDMI, AMD Radeon Vega 10, Windows 10 S, Abyss Blue, W\/ IFT Accessories","id":"7","category":"laptop","brand":"Lenovo"},{"quantity":1,"price":"898","name":"Dell Inspiron 15 5502","description":"Dell Inspiron 15 5502 Thin & Light Laptop, 15.6 inch FHD - Intel Core i7-1165G7, 8GB 3200MHz DDR4 RAM, 512GB SSD, NVIDIA GeForce MX330 2GB GDDR5, Windows 10 Home - Platinum Silver","id":"8","category":"laptop","brand":"Dell"}]}
+12:13:16.647 [main] INFO  com.intuit.karate - [print] {
+  "cart": [
+    {
+      "quantity": 1,
+      "price": "2969",
+      "name": "Apple MacBook Pro 16",
+      "description": "Apple MacBook Pro 16 with Touch Bar, 9th-Gen 8-Core Intel i9 2.4GHz, 32GB RAM, 512GB SSD, AMD Radeon Pro 5300M 4GB, Space Gray, Late 2019",
+      "id": "1",
+      "category": "laptop",
+      "brand": "Apple"
+    },
+    {
+      "quantity": 1,
+      "price": "1580",
+      "name": "Dell XPS 13 (9310)",
+      "description": "Dell XPS 13 (9310), 13.4- inch FHD+ Touch Laptop - Intel Core i7-1185G7, 16GB 4267MHz LPDDR4x RAM, 512GB SSD, Iris Xe Graphics, Windows 10 Pro - Platinum Silver with Black Palmrest",
+      "id": "2",
+      "category": "laptop",
+      "brand": "Dell"
+    },
+    {
+      "quantity": 1,
+      "price": "1079",
+      "name": "Lenovo ThinkPad E15",
+      "description": "OEM Lenovo ThinkPad E15 Gen 2 15.6 FHD Display 1920x1080, Intel Quad Core i5-1135G7, 32GB RAM, 512GB NVMe, W10P, Business Laptop",
+      "id": "3",
+      "category": "laptop",
+      "brand": "Lenovo"
+    },
+    {
+      "quantity": 1,
+      "price": "999",
+      "name": "Apple MacBook Air 13.3",
+      "description": "Apple MacBook Air 13.3 with Retina Display, 1.1GHz Quad-Core Intel Core i5, 8GB Memory, 256GB SSD, Silver (Early 2020)",
+      "id": "4",
+      "category": "laptop",
+      "brand": "Apple"
+    },
+    {
+      "quantity": 1,
+      "price": "2990",
+      "name": "ASUS ZenBook Pro Duo UX581",
+      "description": "ASUS ZenBook Pro Duo UX581 Laptop, 15.6 4K UHD NanoEdge Touch Display, Intel Core i9-10980HK, 32GB RAM, 1TB PCIe SSD, GeForce RTX 2060, ScreenPad Plus, Windows 10 Pro, Celestial Blue, UX581LV-XS94T",
+      "id": "5",
+      "category": "laptop",
+      "brand": "Asus"
+    },
+    {
+      "quantity": 1,
+      "price": "599",
+      "name": "ASUS VivoBook 15",
+      "description": "ASUS VivoBook 15 Thin and Light Laptop- 15.6 Full HD, Intel i5-1035G1 CPU, 8GB RAM, 512GB SSD, Backlit KeyBoard, Fingerprint, Windows 10- F512JA-AS54, Slate Gray",
+      "id": "6",
+      "category": "laptop",
+      "brand": "Asus"
+    },
+    {
+      "quantity": 1,
+      "price": "729",
+      "name": "Lenovo IdeaPad S340 15.6",
+      "description": "2021 Lenovo IdeaPad S340 15.6 FHD Touchscreen Laptop, AMD Ryzen 7 3700U Processor, 12GB Memory, 512GB SSD, Backlit Keyboard, HDMI, AMD Radeon Vega 10, Windows 10 S, Abyss Blue, W/ IFT Accessories",
+      "id": "7",
+      "category": "laptop",
+      "brand": "Lenovo"
+    },
+    {
+      "quantity": 1,
+      "price": "898",
+      "name": "Dell Inspiron 15 5502",
+      "description": "Dell Inspiron 15 5502 Thin & Light Laptop, 15.6 inch FHD - Intel Core i7-1165G7, 8GB 3200MHz DDR4 RAM, 512GB SSD, NVIDIA GeForce MX330 2GB GDDR5, Windows 10 Home - Platinum Silver",
+      "id": "8",
+      "category": "laptop",
+      "brand": "Dell"
+    }
+  ]
+}
+ 
+12:13:16.658 [main] INFO  com.intuit.karate - karate.env system property was: null 
+12:13:16.662 [main] DEBUG com.intuit.karate - request:
+8 > GET http://api.fakeshop-api.com/carts/getCart
+8 > Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyRW1haWwiOiJ3YWxseTc3N0B3YWxseS5jb20iLCJpYXQiOjE2MjU4MjU1OTQsImV4cCI6MTYyNTk5ODM5NH0.gjLqEVGentAj904lpSuApYlc4gCoWbCeNyPlFXSvLS8
+8 > Host: api.fakeshop-api.com
+8 > Connection: Keep-Alive
+8 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_241)
+8 > Accept-Encoding: gzip,deflate
+
+
+12:13:16.922 [main] DEBUG com.intuit.karate - response time in milliseconds: 260
+8 < 201
+8 < Server: Cowboy
+8 < Connection: keep-alive
+8 < X-Powered-By: Express
+8 < Access-Control-Allow-Origin: *
+8 < Content-Type: application/json; charset=utf-8
+8 < Content-Length: 2281
+8 < Etag: W/"8e9-TrC0g9GHAoQduBoM5Ho/NNF/NDU"
+8 < Date: Fri, 09 Jul 2021 10:13:16 GMT
+8 < Via: 1.1 vegur
+{"cart":[{"quantity":1,"price":"2969","name":"Apple MacBook Pro 16","description":"Apple MacBook Pro 16 with Touch Bar, 9th-Gen 8-Core Intel i9 2.4GHz, 32GB RAM, 512GB SSD, AMD Radeon Pro 5300M 4GB, Space Gray, Late 2019","id":"1","category":"laptop","brand":"Apple"},{"quantity":1,"price":"1580","name":"Dell XPS 13 (9310)","description":"Dell XPS 13 (9310), 13.4- inch FHD+ Touch Laptop - Intel Core i7-1185G7, 16GB 4267MHz LPDDR4x RAM, 512GB SSD, Iris Xe Graphics, Windows 10 Pro - Platinum Silver with Black Palmrest","id":"2","category":"laptop","brand":"Dell"},{"quantity":1,"price":"1079","name":"Lenovo ThinkPad E15","description":"OEM Lenovo ThinkPad E15 Gen 2 15.6 FHD Display 1920x1080, Intel Quad Core i5-1135G7, 32GB RAM, 512GB NVMe, W10P, Business Laptop","id":"3","category":"laptop","brand":"Lenovo"},{"quantity":1,"price":"999","name":"Apple MacBook Air 13.3","description":"Apple MacBook Air 13.3 with Retina Display, 1.1GHz Quad-Core Intel Core i5, 8GB Memory, 256GB SSD, Silver (Early 2020)","id":"4","category":"laptop","brand":"Apple"},{"quantity":1,"price":"2990","name":"ASUS ZenBook Pro Duo UX581","description":"ASUS ZenBook Pro Duo UX581 Laptop, 15.6 4K UHD NanoEdge Touch Display, Intel Core i9-10980HK, 32GB RAM, 1TB PCIe SSD, GeForce RTX 2060, ScreenPad Plus, Windows 10 Pro, Celestial Blue, UX581LV-XS94T","id":"5","category":"laptop","brand":"Asus"},{"quantity":1,"price":"599","name":"ASUS VivoBook 15","description":"ASUS VivoBook 15 Thin and Light Laptop- 15.6 Full HD, Intel i5-1035G1 CPU, 8GB RAM, 512GB SSD, Backlit KeyBoard, Fingerprint, Windows 10- F512JA-AS54, Slate Gray","id":"6","category":"laptop","brand":"Asus"},{"quantity":1,"price":"729","name":"Lenovo IdeaPad S340 15.6","description":"2021 Lenovo IdeaPad S340 15.6 FHD Touchscreen Laptop, AMD Ryzen 7 3700U Processor, 12GB Memory, 512GB SSD, Backlit Keyboard, HDMI, AMD Radeon Vega 10, Windows 10 S, Abyss Blue, W\/ IFT Accessories","id":"7","category":"laptop","brand":"Lenovo"},{"quantity":1,"price":"898","name":"Dell Inspiron 15 5502","description":"Dell Inspiron 15 5502 Thin & Light Laptop, 15.6 inch FHD - Intel Core i7-1165G7, 8GB 3200MHz DDR4 RAM, 512GB SSD, NVIDIA GeForce MX330 2GB GDDR5, Windows 10 Home - Platinum Silver","id":"8","category":"laptop","brand":"Dell"}]}
+12:13:16.925 [main] INFO  com.intuit.karate - [print] {
+  "cart": [
+    {
+      "quantity": 1,
+      "price": "2969",
+      "name": "Apple MacBook Pro 16",
+      "description": "Apple MacBook Pro 16 with Touch Bar, 9th-Gen 8-Core Intel i9 2.4GHz, 32GB RAM, 512GB SSD, AMD Radeon Pro 5300M 4GB, Space Gray, Late 2019",
+      "id": "1",
+      "category": "laptop",
+      "brand": "Apple"
+    },
+    {
+      "quantity": 1,
+      "price": "1580",
+      "name": "Dell XPS 13 (9310)",
+      "description": "Dell XPS 13 (9310), 13.4- inch FHD+ Touch Laptop - Intel Core i7-1185G7, 16GB 4267MHz LPDDR4x RAM, 512GB SSD, Iris Xe Graphics, Windows 10 Pro - Platinum Silver with Black Palmrest",
+      "id": "2",
+      "category": "laptop",
+      "brand": "Dell"
+    },
+    {
+      "quantity": 1,
+      "price": "1079",
+      "name": "Lenovo ThinkPad E15",
+      "description": "OEM Lenovo ThinkPad E15 Gen 2 15.6 FHD Display 1920x1080, Intel Quad Core i5-1135G7, 32GB RAM, 512GB NVMe, W10P, Business Laptop",
+      "id": "3",
+      "category": "laptop",
+      "brand": "Lenovo"
+    },
+    {
+      "quantity": 1,
+      "price": "999",
+      "name": "Apple MacBook Air 13.3",
+      "description": "Apple MacBook Air 13.3 with Retina Display, 1.1GHz Quad-Core Intel Core i5, 8GB Memory, 256GB SSD, Silver (Early 2020)",
+      "id": "4",
+      "category": "laptop",
+      "brand": "Apple"
+    },
+    {
+      "quantity": 1,
+      "price": "2990",
+      "name": "ASUS ZenBook Pro Duo UX581",
+      "description": "ASUS ZenBook Pro Duo UX581 Laptop, 15.6 4K UHD NanoEdge Touch Display, Intel Core i9-10980HK, 32GB RAM, 1TB PCIe SSD, GeForce RTX 2060, ScreenPad Plus, Windows 10 Pro, Celestial Blue, UX581LV-XS94T",
+      "id": "5",
+      "category": "laptop",
+      "brand": "Asus"
+    },
+    {
+      "quantity": 1,
+      "price": "599",
+      "name": "ASUS VivoBook 15",
+      "description": "ASUS VivoBook 15 Thin and Light Laptop- 15.6 Full HD, Intel i5-1035G1 CPU, 8GB RAM, 512GB SSD, Backlit KeyBoard, Fingerprint, Windows 10- F512JA-AS54, Slate Gray",
+      "id": "6",
+      "category": "laptop",
+      "brand": "Asus"
+    },
+    {
+      "quantity": 1,
+      "price": "729",
+      "name": "Lenovo IdeaPad S340 15.6",
+      "description": "2021 Lenovo IdeaPad S340 15.6 FHD Touchscreen Laptop, AMD Ryzen 7 3700U Processor, 12GB Memory, 512GB SSD, Backlit Keyboard, HDMI, AMD Radeon Vega 10, Windows 10 S, Abyss Blue, W/ IFT Accessories",
+      "id": "7",
+      "category": "laptop",
+      "brand": "Lenovo"
+    },
+    {
+      "quantity": 1,
+      "price": "898",
+      "name": "Dell Inspiron 15 5502",
+      "description": "Dell Inspiron 15 5502 Thin & Light Laptop, 15.6 inch FHD - Intel Core i7-1165G7, 8GB 3200MHz DDR4 RAM, 512GB SSD, NVIDIA GeForce MX330 2GB GDDR5, Windows 10 Home - Platinum Silver",
+      "id": "8",
+      "category": "laptop",
+      "brand": "Dell"
+    }
+  ]
+}
+ 
+12:13:17.304 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+12:13:17.310 [main] INFO  com.intuit.karate - karate.env system property was: null 
+12:13:17.318 [main] DEBUG com.intuit.karate - request:
+1 > POST http://api.fakeshop-api.com/users/signin
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 50
+1 > Host: api.fakeshop-api.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_241)
+1 > Accept-Encoding: gzip,deflate
+{"password":"123456","email":"wally777@wally.com"}
+
+12:13:17.624 [main] DEBUG com.intuit.karate - response time in milliseconds: 306
+1 < 201
+1 < Server: Cowboy
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 224
+1 < Etag: W/"e0-fQ7f77W13e0pSyXmI1v/w1g9RMY"
+1 < Date: Fri, 09 Jul 2021 10:13:17 GMT
+1 < Via: 1.1 vegur
+{"message":"User signed in successfully","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyRW1haWwiOiJ3YWxseTc3N0B3YWxseS5jb20iLCJpYXQiOjE2MjU4MjU1OTcsImV4cCI6MTYyNTk5ODM5N30.XglutSv0Mxm-qbrLzijq09rrwIbj6KDjbTohKt6EZJY"}
+12:13:17.626 [main] INFO  com.intuit.karate - [print] {
+  "message": "User signed in successfully",
+  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyRW1haWwiOiJ3YWxseTc3N0B3YWxseS5jb20iLCJpYXQiOjE2MjU4MjU1OTcsImV4cCI6MTYyNTk5ODM5N30.XglutSv0Mxm-qbrLzijq09rrwIbj6KDjbTohKt6EZJY"
+}
+ 
+12:13:17.631 [main] DEBUG com.intuit.karate - request:
+1 > POST http://api.fakeshop-api.com/carts/emptyCart
+1 > Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyRW1haWwiOiJ3YWxseTc3N0B3YWxseS5jb20iLCJpYXQiOjE2MjU4MjU1OTcsImV4cCI6MTYyNTk5ODM5N30.XglutSv0Mxm-qbrLzijq09rrwIbj6KDjbTohKt6EZJY
+1 > Host: api.fakeshop-api.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_241)
+1 > Accept-Encoding: gzip,deflate
+
+
+12:13:17.871 [main] DEBUG com.intuit.karate - response time in milliseconds: 238
+1 < 201
+1 < Server: Cowboy
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 31
+1 < Etag: W/"1f-uVjpI6rHViLny/uTsG6jJSVb1Qo"
+1 < Date: Fri, 09 Jul 2021 10:13:17 GMT
+1 < Via: 1.1 vegur
+{"message":"Cart is now empty"}
+12:13:17.875 [main] INFO  com.intuit.karate - [print] {
+  "message": "Cart is now empty"
+}
+ 
